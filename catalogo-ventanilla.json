@@ -1,0 +1,584 @@
+{
+  "version": 1,
+  "secciones": [
+    {
+      "id": "ESP",
+      "nombre": "España",
+      "entradas": [
+        {
+          "id": "carpeta",
+          "nombre": "Mi Carpeta Ciudadana",
+          "url": "https://carpetaciudadana.gob.es/",
+          "desc": "Datos, expedientes y notificaciones de todas las AAPP",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "dehu",
+          "nombre": "DEHú notificaciones",
+          "url": "https://dehu.redsara.es/",
+          "desc": "Notificaciones electrónicas",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "clave",
+          "nombre": "Cl@ve",
+          "url": "https://clave.gob.es/",
+          "desc": "Gestión de Cl@ve",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "aeat",
+          "nombre": "Agencia Tributaria",
+          "url": "https://sede.agenciatributaria.gob.es/",
+          "desc": "Renta, notificaciones, cita previa",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "importass",
+          "nombre": "Import@ss",
+          "url": "https://portal.seg-social.gob.es/",
+          "desc": "Vida laboral, bases de cotización",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "segsocial",
+          "nombre": "Sede Seguridad Social",
+          "url": "https://sede.seg-social.gob.es/",
+          "desc": "Trámites",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "dgt",
+          "nombre": "Sede DGT",
+          "url": "https://sede.dgt.gob.es/",
+          "desc": "Tráfico: puntos, multas, citas, vehículos",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "sepe",
+          "nombre": "Sede SEPE",
+          "url": "https://sede.sepe.gob.es/",
+          "desc": "Prestaciones",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "catastro",
+          "nombre": "Sede Catastro",
+          "url": "https://www.sedecatastro.gob.es/",
+          "desc": "Certificaciones catastrales",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "aemet",
+          "nombre": "AEMET",
+          "url": "https://www.aemet.es/",
+          "desc": "Predicción y avisos",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "correos",
+          "nombre": "Correos seguimiento",
+          "url": "https://www.correos.es/es/es/herramientas/localizador/envios",
+          "desc": "Localizar envíos",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "fnmt",
+          "nombre": "Sede FNMT",
+          "url": "https://www.sede.fnmt.gob.es/",
+          "desc": "Certificado digital",
+          "auth": "certificado",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "firmanube",
+          "nombre": "Firma en la nube",
+          "url": "https://sede.administracionespublicas.gob.es/",
+          "desc": "Cl@ve Firma sin Autofirma",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        }
+      ]
+    },
+    {
+      "id": "AND",
+      "nombre": "Andalucía",
+      "entradas": [
+        {
+          "id": "carpetaja",
+          "nombre": "Carpeta Ciudadana Junta",
+          "url": "https://www.juntadeandalucia.es/carpetaciudadana/",
+          "desc": "Trámites, carnets, tarjeta sanitaria QR",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "pasen",
+          "nombre": "PASEN",
+          "url": "https://www.juntadeandalucia.es/educacion/portalseneca/web/pasen/inicio",
+          "desc": "Notas, faltas, comunicaciones",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "clicsalud",
+          "nombre": "ClicSalud+",
+          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/",
+          "desc": "Historia clínica, recetas, citas",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "citasas",
+          "nombre": "Cita previa SAS",
+          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/pages/anonimo/agenda/pedirCita.jsf?opcionSeleccionada=MUPEDIRCITA",
+          "desc": "Cita de atención primaria sin certificado",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "notifja",
+          "nombre": "Notificaciones Junta",
+          "url": "https://juntadeandalucia.es/servicios/tramites/servicios-digitales/notificaciones-electronicas.html",
+          "desc": "Notific@",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "saecita",
+          "nombre": "SAE cita previa",
+          "url": "https://ws054.juntadeandalucia.es/servicioandaluzdeempleo/web/citaprevia/pedircita",
+          "desc": "Cita en oficina de empleo",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "sae",
+          "nombre": "SAE",
+          "url": "https://www.juntadeandalucia.es/organismos/empleoempresastrabajoautonomoyeconomiadigital/sae.html",
+          "desc": "Demanda de empleo, renovación",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "ema",
+          "nombre": "Emergencias Andalucía",
+          "url": "https://ema112andalucia.es/",
+          "desc": "Avisos e incendios",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "incendios",
+          "nombre": "Incendios activos",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales/situacion/incendios-activos.html",
+          "desc": "Infoca",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "siu",
+          "nombre": "Transporte metropolitano",
+          "url": "https://siu.ctas.ctan.es/",
+          "desc": "Horarios de consorcios",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "boja",
+          "nombre": "BOJA",
+          "url": "https://www.juntadeandalucia.es/boja",
+          "desc": "Boletín Oficial",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "atrian",
+          "nombre": "Agencia Tributaria de Andalucía",
+          "url": "https://www.juntadeandalucia.es/agenciatributariadeandalucia/",
+          "desc": "Tributos autonómicos",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        }
+      ]
+    },
+    {
+      "id": "SEV",
+      "nombre": "Diputación de Sevilla",
+      "entradas": [
+        {
+          "id": "sededipu",
+          "nombre": "Sede Diputación",
+          "url": "https://sedeelectronicadipusevilla.es/",
+          "desc": "Registro y trámites",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "tablondipu",
+          "nombre": "Tablón-e Diputación",
+          "url": "https://sedeelectronicadipusevilla.es/tablon-1.0/do/entradaPublica?ine=41191",
+          "desc": "Edictos",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "bop",
+          "nombre": "BOP Sevilla",
+          "url": "https://bopsevilla.dipusevilla.es/",
+          "desc": "Boletín provincial",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "opaef",
+          "nombre": "OPAEF sede",
+          "url": "https://sede.opaef.es/sede/",
+          "desc": "Tributos locales",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "opaefpago",
+          "nombre": "OPAEF consulta y pago",
+          "url": "https://sede.opaef.es/sede/tributos/consulta-y-pago-de-tributos-y-multas/",
+          "desc": "Pago con tarjeta o Bizum",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "opaefcita",
+          "nombre": "OPAEF cita previa",
+          "url": "https://sede.opaef.es/sede/tributos/servicio/Cita-Previa/",
+          "desc": "Cita en oficina",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "opaefnotif",
+          "nombre": "OPAEF notificaciones",
+          "url": "https://sede.opaef.es/sede/carpeta-ciudadana/mis-notificaciones/",
+          "desc": "Mis notificaciones",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "estadistica",
+          "nombre": "Portal estadístico",
+          "url": "https://portalestadistico.dipusevilla.es/es/",
+          "desc": "Datos provinciales",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        }
+      ]
+    },
+    {
+      "id": "ADR",
+      "nombre": "Alcalá del Río",
+      "entradas": [
+        {
+          "id": "sedeadr",
+          "nombre": "Sede electrónica",
+          "url": "https://alcaladelrio.sedelectronica.es/",
+          "desc": "Trámites, carpeta, notificaciones (Gestiona)",
+          "auth": "clave",
+          "estado": "pendiente",
+          "favorito": true
+        },
+        {
+          "id": "webadr",
+          "nombre": "Web municipal",
+          "url": "https://www.alcaladelrio.es/",
+          "desc": "Noticias y bandos",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "tablonadr",
+          "nombre": "Tablón de anuncios",
+          "url": "https://www.alcaladelrio.es/es/ayuntamiento/tablon-de-anuncios",
+          "desc": "Anuncios municipales",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "incidadr",
+          "nombre": "Incidencias",
+          "url": "https://www.alcaladelrio.es/es/mas-informacion/incidencias/",
+          "desc": "Formulario de incidencias",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "contratadr",
+          "nombre": "Perfil del contratante",
+          "url": "https://www.alcaladelrio.es/es/ayuntamiento/perfil-del-contratante",
+          "desc": "Licitaciones",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "emasesa",
+          "nombre": "Emasesa, oficina online",
+          "url": "https://www.emasesaonline.com/oficina-online/web/home/",
+          "desc": "Agua: facturas, consumo, contrato",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "emasesaaveria",
+          "nombre": "Emasesa, avería o incidencia",
+          "url": "https://www.emasesa.com/contacta-con-nosotros/reporta-una-incidencia/",
+          "desc": "Comunicar fuga, corte o problema en la red",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "emasesalectura",
+          "nombre": "Emasesa, lectura de contador",
+          "url": "https://www.emasesa.com/usuarios/tu-factura/aportar-lectura-del-contador/",
+          "desc": "Aportar la lectura del contador",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "emasesacita",
+          "nombre": "Emasesa, cita previa",
+          "url": "https://www.emasesa.com/contacta-con-nosotros/cita-previa/",
+          "desc": "Cita en oficina de atención",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        }
+      ]
+    },
+    {
+      "id": "UE",
+      "nombre": "Unión Europea",
+      "entradas": [
+        {
+          "id": "youreurope",
+          "nombre": "Tu Europa",
+          "url": "https://europa.eu/youreurope/citizens/index_es.htm",
+          "desc": "Derechos y trámites en la UE: residir, trabajar, viajar, sanidad",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "eulogin",
+          "nombre": "EU Login",
+          "url": "https://ecas.ec.europa.eu/cas/login",
+          "desc": "Cuenta única para los servicios de la Comisión",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "europass",
+          "nombre": "Europass",
+          "url": "https://europa.eu/europass/es",
+          "desc": "CV y perfil profesional europeo",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "eures",
+          "nombre": "EURES",
+          "url": "https://eures.europa.eu/index_es",
+          "desc": "Empleo en otros países de la UE",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "solvit",
+          "nombre": "SOLVIT",
+          "url": "https://ec.europa.eu/solvit/index_es.htm",
+          "desc": "Reclamaciones contra administraciones de otro Estado miembro",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "ejustice",
+          "nombre": "Portal e-Justicia",
+          "url": "https://e-justice.europa.eu/home?action=home&plang=es",
+          "desc": "Justicia transfronteriza, formularios, registros",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "ombudsman",
+          "nombre": "Defensor del Pueblo Europeo",
+          "url": "https://www.ombudsman.europa.eu/es/home",
+          "desc": "Quejas contra instituciones de la UE",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "peticiones",
+          "nombre": "Peticiones al Parlamento Europeo",
+          "url": "https://www.europarl.europa.eu/petitions/es/home",
+          "desc": "Presentar y apoyar peticiones",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "ice",
+          "nombre": "Iniciativa Ciudadana Europea",
+          "url": "https://citizens-initiative.europa.eu/_es",
+          "desc": "Firmar iniciativas ciudadanas",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "haveyoursay",
+          "nombre": "Díganos lo que piensa",
+          "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say_es",
+          "desc": "Consultas públicas de la Comisión",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "eurlex",
+          "nombre": "EUR-Lex",
+          "url": "https://eur-lex.europa.eu/homepage.html?locale=es",
+          "desc": "Legislación de la UE",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "pasajeros",
+          "nombre": "Derechos de los pasajeros",
+          "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/index_es.htm",
+          "desc": "Retrasos, cancelaciones, equipaje",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "cec",
+          "nombre": "Centro Europeo del Consumidor",
+          "url": "https://cec.consumo.gob.es/",
+          "desc": "Reclamaciones de consumo transfronterizas",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "contacto",
+          "nombre": "Contactar con la UE",
+          "url": "https://european-union.europa.eu/contact-eu/write-us_es",
+          "desc": "Europe Direct: preguntas por escrito",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "vies",
+          "nombre": "VIES, validar NIF-IVA",
+          "url": "https://ec.europa.eu/taxation_customs/vies/",
+          "desc": "Comprobar el IVA intracomunitario de un cliente",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "ted",
+          "nombre": "TED, licitaciones",
+          "url": "https://ted.europa.eu/es/",
+          "desc": "Contratación pública europea",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "fundingtenders",
+          "nombre": "Funding & Tenders",
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+          "desc": "Convocatorias y proyectos (Horizonte Europa, Digital Europe)",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "euipo",
+          "nombre": "EUIPO",
+          "url": "https://www.euipo.europa.eu/es",
+          "desc": "Marcas y diseños de la UE",
+          "auth": "usuario",
+          "estado": "pendiente",
+          "favorito": false
+        },
+        {
+          "id": "dataeuropa",
+          "nombre": "data.europa.eu",
+          "url": "https://data.europa.eu/es",
+          "desc": "Datos abiertos europeos",
+          "auth": "ninguna",
+          "estado": "pendiente",
+          "favorito": false
+        }
+      ]
+    }
+  ]
+}
