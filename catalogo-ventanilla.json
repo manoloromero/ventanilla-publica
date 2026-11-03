@@ -1,584 +1,4710 @@
 {
-  "version": 1,
-  "secciones": [
+ "schema": 2,
+ "version": 3,
+ "paises": [
+  {
+   "iso": "ES",
+   "nombre": "España",
+   "idioma": "es",
+   "secciones": [
     {
-      "id": "ESP",
-      "nombre": "España",
-      "entradas": [
-        {
-          "id": "carpeta",
-          "nombre": "Mi Carpeta Ciudadana",
-          "url": "https://carpetaciudadana.gob.es/",
-          "desc": "Datos, expedientes y notificaciones de todas las AAPP",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "dehu",
-          "nombre": "DEHú notificaciones",
-          "url": "https://dehu.redsara.es/",
-          "desc": "Notificaciones electrónicas",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "clave",
-          "nombre": "Cl@ve",
-          "url": "https://clave.gob.es/",
-          "desc": "Gestión de Cl@ve",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "aeat",
-          "nombre": "Agencia Tributaria",
-          "url": "https://sede.agenciatributaria.gob.es/",
-          "desc": "Renta, notificaciones, cita previa",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "importass",
-          "nombre": "Import@ss",
-          "url": "https://portal.seg-social.gob.es/",
-          "desc": "Vida laboral, bases de cotización",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "segsocial",
-          "nombre": "Sede Seguridad Social",
-          "url": "https://sede.seg-social.gob.es/",
-          "desc": "Trámites",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "dgt",
-          "nombre": "Sede DGT",
-          "url": "https://sede.dgt.gob.es/",
-          "desc": "Tráfico: puntos, multas, citas, vehículos",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "sepe",
-          "nombre": "Sede SEPE",
-          "url": "https://sede.sepe.gob.es/",
-          "desc": "Prestaciones",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "catastro",
-          "nombre": "Sede Catastro",
-          "url": "https://www.sedecatastro.gob.es/",
-          "desc": "Certificaciones catastrales",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "aemet",
-          "nombre": "AEMET",
-          "url": "https://www.aemet.es/",
-          "desc": "Predicción y avisos",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "correos",
-          "nombre": "Correos seguimiento",
-          "url": "https://www.correos.es/es/es/herramientas/localizador/envios",
-          "desc": "Localizar envíos",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "fnmt",
-          "nombre": "Sede FNMT",
-          "url": "https://www.sede.fnmt.gob.es/",
-          "desc": "Certificado digital",
-          "auth": "certificado",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "firmanube",
-          "nombre": "Firma en la nube",
-          "url": "https://sede.administracionespublicas.gob.es/",
-          "desc": "Cl@ve Firma sin Autofirma",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        }
-      ]
+     "id": "ESP",
+     "nombre": "España",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "carpeta",
+       "nombre": "Mi Carpeta Ciudadana",
+       "url": "https://carpetaciudadana.gob.es/",
+       "desc": "Datos, expedientes y notificaciones de todas las AAPP",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "dehu",
+       "nombre": "DEHú notificaciones",
+       "url": "https://dehu.redsara.es/",
+       "desc": "Notificaciones electrónicas",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "clave",
+       "nombre": "Cl@ve",
+       "url": "https://clave.gob.es/",
+       "desc": "Gestión de Cl@ve",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "aeat",
+       "nombre": "Agencia Tributaria",
+       "url": "https://sede.agenciatributaria.gob.es/",
+       "desc": "Renta, notificaciones, cita previa",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "importass",
+       "nombre": "Import@ss",
+       "url": "https://portal.seg-social.gob.es/",
+       "desc": "Vida laboral, bases de cotización",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "segsocial",
+       "nombre": "Sede Seguridad Social",
+       "url": "https://sede.seg-social.gob.es/",
+       "desc": "Trámites",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "dgt",
+       "nombre": "Sede DGT",
+       "url": "https://sede.dgt.gob.es/",
+       "desc": "Tráfico: puntos, multas, citas, vehículos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sepe",
+       "nombre": "Sede SEPE",
+       "url": "https://sede.sepe.gob.es/",
+       "desc": "Prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "catastro",
+       "nombre": "Sede Catastro",
+       "url": "https://www.sedecatastro.gob.es/",
+       "desc": "Certificaciones catastrales",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "aemet",
+       "nombre": "AEMET",
+       "url": "https://www.aemet.es/",
+       "desc": "Predicción y avisos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "correos",
+       "nombre": "Correos seguimiento",
+       "url": "https://www.correos.es/es/es/herramientas/localizador/envios",
+       "desc": "Localizar envíos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "fnmt",
+       "nombre": "Sede FNMT",
+       "url": "https://www.sede.fnmt.gob.es/",
+       "desc": "Certificado digital",
+       "auth": "certificado",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "firmanube",
+       "nombre": "Firma en la nube",
+       "url": "https://sede.administracionespublicas.gob.es/",
+       "desc": "Cl@ve Firma sin Autofirma",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
     },
     {
-      "id": "AND",
-      "nombre": "Andalucía",
-      "entradas": [
-        {
-          "id": "carpetaja",
-          "nombre": "Carpeta Ciudadana Junta",
-          "url": "https://www.juntadeandalucia.es/carpetaciudadana/",
-          "desc": "Trámites, carnets, tarjeta sanitaria QR",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "pasen",
-          "nombre": "PASEN",
-          "url": "https://www.juntadeandalucia.es/educacion/portalseneca/web/pasen/inicio",
-          "desc": "Notas, faltas, comunicaciones",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "clicsalud",
-          "nombre": "ClicSalud+",
-          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/",
-          "desc": "Historia clínica, recetas, citas",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "citasas",
-          "nombre": "Cita previa SAS",
-          "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/pages/anonimo/agenda/pedirCita.jsf?opcionSeleccionada=MUPEDIRCITA",
-          "desc": "Cita de atención primaria sin certificado",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "notifja",
-          "nombre": "Notificaciones Junta",
-          "url": "https://juntadeandalucia.es/servicios/tramites/servicios-digitales/notificaciones-electronicas.html",
-          "desc": "Notific@",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "saecita",
-          "nombre": "SAE cita previa",
-          "url": "https://ws054.juntadeandalucia.es/servicioandaluzdeempleo/web/citaprevia/pedircita",
-          "desc": "Cita en oficina de empleo",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "sae",
-          "nombre": "SAE",
-          "url": "https://www.juntadeandalucia.es/organismos/empleoempresastrabajoautonomoyeconomiadigital/sae.html",
-          "desc": "Demanda de empleo, renovación",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "ema",
-          "nombre": "Emergencias Andalucía",
-          "url": "https://ema112andalucia.es/",
-          "desc": "Avisos e incendios",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "incendios",
-          "nombre": "Incendios activos",
-          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales/situacion/incendios-activos.html",
-          "desc": "Infoca",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "siu",
-          "nombre": "Transporte metropolitano",
-          "url": "https://siu.ctas.ctan.es/",
-          "desc": "Horarios de consorcios",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "boja",
-          "nombre": "BOJA",
-          "url": "https://www.juntadeandalucia.es/boja",
-          "desc": "Boletín Oficial",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "atrian",
-          "nombre": "Agencia Tributaria de Andalucía",
-          "url": "https://www.juntadeandalucia.es/agenciatributariadeandalucia/",
-          "desc": "Tributos autonómicos",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        }
-      ]
+     "id": "AND",
+     "nombre": "Andalucía",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "carpetaja",
+       "nombre": "Carpeta Ciudadana Junta",
+       "url": "https://www.juntadeandalucia.es/carpetaciudadana/",
+       "desc": "Trámites, carnets, tarjeta sanitaria QR",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "pasen",
+       "nombre": "PASEN",
+       "url": "https://www.juntadeandalucia.es/educacion/portalseneca/web/pasen/inicio",
+       "desc": "Notas, faltas, comunicaciones",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "clicsalud",
+       "nombre": "ClicSalud+",
+       "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/",
+       "desc": "Historia clínica, recetas, citas",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "citasas",
+       "nombre": "Cita previa SAS",
+       "url": "https://www.sspa.juntadeandalucia.es/servicioandaluzdesalud/clicsalud/pages/anonimo/agenda/pedirCita.jsf?opcionSeleccionada=MUPEDIRCITA",
+       "desc": "Cita de atención primaria sin certificado",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "notifja",
+       "nombre": "Notificaciones Junta",
+       "url": "https://juntadeandalucia.es/servicios/tramites/servicios-digitales/notificaciones-electronicas.html",
+       "desc": "Notific@",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "saecita",
+       "nombre": "SAE cita previa",
+       "url": "https://ws054.juntadeandalucia.es/servicioandaluzdeempleo/web/citaprevia/pedircita",
+       "desc": "Cita en oficina de empleo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sae",
+       "nombre": "SAE",
+       "url": "https://www.juntadeandalucia.es/organismos/empleoempresastrabajoautonomoyeconomiadigital/sae.html",
+       "desc": "Demanda de empleo, renovación",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ema",
+       "nombre": "Emergencias Andalucía",
+       "url": "https://ema112andalucia.es/",
+       "desc": "Avisos e incendios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "incendios",
+       "nombre": "Incendios activos",
+       "url": "https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales/situacion/incendios-activos.html",
+       "desc": "Infoca",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "siu",
+       "nombre": "Transporte metropolitano",
+       "url": "https://siu.ctas.ctan.es/",
+       "desc": "Horarios de consorcios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "boja",
+       "nombre": "BOJA",
+       "url": "https://www.juntadeandalucia.es/boja",
+       "desc": "Boletín Oficial",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "atrian",
+       "nombre": "Agencia Tributaria de Andalucía",
+       "url": "https://www.juntadeandalucia.es/agenciatributariadeandalucia/",
+       "desc": "Tributos autonómicos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
     },
     {
-      "id": "SEV",
-      "nombre": "Diputación de Sevilla",
-      "entradas": [
-        {
-          "id": "sededipu",
-          "nombre": "Sede Diputación",
-          "url": "https://sedeelectronicadipusevilla.es/",
-          "desc": "Registro y trámites",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "tablondipu",
-          "nombre": "Tablón-e Diputación",
-          "url": "https://sedeelectronicadipusevilla.es/tablon-1.0/do/entradaPublica?ine=41191",
-          "desc": "Edictos",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "bop",
-          "nombre": "BOP Sevilla",
-          "url": "https://bopsevilla.dipusevilla.es/",
-          "desc": "Boletín provincial",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "opaef",
-          "nombre": "OPAEF sede",
-          "url": "https://sede.opaef.es/sede/",
-          "desc": "Tributos locales",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "opaefpago",
-          "nombre": "OPAEF consulta y pago",
-          "url": "https://sede.opaef.es/sede/tributos/consulta-y-pago-de-tributos-y-multas/",
-          "desc": "Pago con tarjeta o Bizum",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "opaefcita",
-          "nombre": "OPAEF cita previa",
-          "url": "https://sede.opaef.es/sede/tributos/servicio/Cita-Previa/",
-          "desc": "Cita en oficina",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "opaefnotif",
-          "nombre": "OPAEF notificaciones",
-          "url": "https://sede.opaef.es/sede/carpeta-ciudadana/mis-notificaciones/",
-          "desc": "Mis notificaciones",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "estadistica",
-          "nombre": "Portal estadístico",
-          "url": "https://portalestadistico.dipusevilla.es/es/",
-          "desc": "Datos provinciales",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        }
-      ]
+     "id": "SEV",
+     "nombre": "Diputación de Sevilla",
+     "nivel": "provincia",
+     "entradas": [
+      {
+       "id": "sededipu",
+       "nombre": "Sede Diputación",
+       "url": "https://sedeelectronicadipusevilla.es/",
+       "desc": "Registro y trámites",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "tablondipu",
+       "nombre": "Tablón-e Diputación",
+       "url": "https://sedeelectronicadipusevilla.es/tablon-1.0/do/entradaPublica?ine=41191",
+       "desc": "Edictos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "bop",
+       "nombre": "BOP Sevilla",
+       "url": "https://bopsevilla.dipusevilla.es/",
+       "desc": "Boletín provincial",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "opaef",
+       "nombre": "OPAEF sede",
+       "url": "https://sede.opaef.es/sede/",
+       "desc": "Tributos locales",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "opaefpago",
+       "nombre": "OPAEF consulta y pago",
+       "url": "https://sede.opaef.es/sede/tributos/consulta-y-pago-de-tributos-y-multas/",
+       "desc": "Pago con tarjeta o Bizum",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "opaefcita",
+       "nombre": "OPAEF cita previa",
+       "url": "https://sede.opaef.es/sede/tributos/servicio/Cita-Previa/",
+       "desc": "Cita en oficina",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "opaefnotif",
+       "nombre": "OPAEF notificaciones",
+       "url": "https://sede.opaef.es/sede/carpeta-ciudadana/mis-notificaciones/",
+       "desc": "Mis notificaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "estadistica",
+       "nombre": "Portal estadístico",
+       "url": "https://portalestadistico.dipusevilla.es/es/",
+       "desc": "Datos provinciales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
     },
     {
-      "id": "ADR",
-      "nombre": "Alcalá del Río",
-      "entradas": [
-        {
-          "id": "sedeadr",
-          "nombre": "Sede electrónica",
-          "url": "https://alcaladelrio.sedelectronica.es/",
-          "desc": "Trámites, carpeta, notificaciones (Gestiona)",
-          "auth": "clave",
-          "estado": "pendiente",
-          "favorito": true
-        },
-        {
-          "id": "webadr",
-          "nombre": "Web municipal",
-          "url": "https://www.alcaladelrio.es/",
-          "desc": "Noticias y bandos",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "tablonadr",
-          "nombre": "Tablón de anuncios",
-          "url": "https://www.alcaladelrio.es/es/ayuntamiento/tablon-de-anuncios",
-          "desc": "Anuncios municipales",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "incidadr",
-          "nombre": "Incidencias",
-          "url": "https://www.alcaladelrio.es/es/mas-informacion/incidencias/",
-          "desc": "Formulario de incidencias",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "contratadr",
-          "nombre": "Perfil del contratante",
-          "url": "https://www.alcaladelrio.es/es/ayuntamiento/perfil-del-contratante",
-          "desc": "Licitaciones",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "emasesa",
-          "nombre": "Emasesa, oficina online",
-          "url": "https://www.emasesaonline.com/oficina-online/web/home/",
-          "desc": "Agua: facturas, consumo, contrato",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "emasesaaveria",
-          "nombre": "Emasesa, avería o incidencia",
-          "url": "https://www.emasesa.com/contacta-con-nosotros/reporta-una-incidencia/",
-          "desc": "Comunicar fuga, corte o problema en la red",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "emasesalectura",
-          "nombre": "Emasesa, lectura de contador",
-          "url": "https://www.emasesa.com/usuarios/tu-factura/aportar-lectura-del-contador/",
-          "desc": "Aportar la lectura del contador",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "emasesacita",
-          "nombre": "Emasesa, cita previa",
-          "url": "https://www.emasesa.com/contacta-con-nosotros/cita-previa/",
-          "desc": "Cita en oficina de atención",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        }
-      ]
-    },
-    {
-      "id": "UE",
-      "nombre": "Unión Europea",
-      "entradas": [
-        {
-          "id": "youreurope",
-          "nombre": "Tu Europa",
-          "url": "https://europa.eu/youreurope/citizens/index_es.htm",
-          "desc": "Derechos y trámites en la UE: residir, trabajar, viajar, sanidad",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "eulogin",
-          "nombre": "EU Login",
-          "url": "https://ecas.ec.europa.eu/cas/login",
-          "desc": "Cuenta única para los servicios de la Comisión",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "europass",
-          "nombre": "Europass",
-          "url": "https://europa.eu/europass/es",
-          "desc": "CV y perfil profesional europeo",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "eures",
-          "nombre": "EURES",
-          "url": "https://eures.europa.eu/index_es",
-          "desc": "Empleo en otros países de la UE",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "solvit",
-          "nombre": "SOLVIT",
-          "url": "https://ec.europa.eu/solvit/index_es.htm",
-          "desc": "Reclamaciones contra administraciones de otro Estado miembro",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "ejustice",
-          "nombre": "Portal e-Justicia",
-          "url": "https://e-justice.europa.eu/home?action=home&plang=es",
-          "desc": "Justicia transfronteriza, formularios, registros",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "ombudsman",
-          "nombre": "Defensor del Pueblo Europeo",
-          "url": "https://www.ombudsman.europa.eu/es/home",
-          "desc": "Quejas contra instituciones de la UE",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "peticiones",
-          "nombre": "Peticiones al Parlamento Europeo",
-          "url": "https://www.europarl.europa.eu/petitions/es/home",
-          "desc": "Presentar y apoyar peticiones",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "ice",
-          "nombre": "Iniciativa Ciudadana Europea",
-          "url": "https://citizens-initiative.europa.eu/_es",
-          "desc": "Firmar iniciativas ciudadanas",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "haveyoursay",
-          "nombre": "Díganos lo que piensa",
-          "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say_es",
-          "desc": "Consultas públicas de la Comisión",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "eurlex",
-          "nombre": "EUR-Lex",
-          "url": "https://eur-lex.europa.eu/homepage.html?locale=es",
-          "desc": "Legislación de la UE",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "pasajeros",
-          "nombre": "Derechos de los pasajeros",
-          "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/index_es.htm",
-          "desc": "Retrasos, cancelaciones, equipaje",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "cec",
-          "nombre": "Centro Europeo del Consumidor",
-          "url": "https://cec.consumo.gob.es/",
-          "desc": "Reclamaciones de consumo transfronterizas",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "contacto",
-          "nombre": "Contactar con la UE",
-          "url": "https://european-union.europa.eu/contact-eu/write-us_es",
-          "desc": "Europe Direct: preguntas por escrito",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "vies",
-          "nombre": "VIES, validar NIF-IVA",
-          "url": "https://ec.europa.eu/taxation_customs/vies/",
-          "desc": "Comprobar el IVA intracomunitario de un cliente",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "ted",
-          "nombre": "TED, licitaciones",
-          "url": "https://ted.europa.eu/es/",
-          "desc": "Contratación pública europea",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "fundingtenders",
-          "nombre": "Funding & Tenders",
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
-          "desc": "Convocatorias y proyectos (Horizonte Europa, Digital Europe)",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "euipo",
-          "nombre": "EUIPO",
-          "url": "https://www.euipo.europa.eu/es",
-          "desc": "Marcas y diseños de la UE",
-          "auth": "usuario",
-          "estado": "pendiente",
-          "favorito": false
-        },
-        {
-          "id": "dataeuropa",
-          "nombre": "data.europa.eu",
-          "url": "https://data.europa.eu/es",
-          "desc": "Datos abiertos europeos",
-          "auth": "ninguna",
-          "estado": "pendiente",
-          "favorito": false
-        }
-      ]
+     "id": "ADR",
+     "nombre": "Alcalá del Río",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "sedeadr",
+       "nombre": "Sede electrónica",
+       "url": "https://alcaladelrio.sedelectronica.es/",
+       "desc": "Trámites, carpeta, notificaciones (Gestiona)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": true
+      },
+      {
+       "id": "webadr",
+       "nombre": "Web municipal",
+       "url": "https://www.alcaladelrio.es/",
+       "desc": "Noticias y bandos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "tablonadr",
+       "nombre": "Tablón de anuncios",
+       "url": "https://www.alcaladelrio.es/es/ayuntamiento/tablon-de-anuncios",
+       "desc": "Anuncios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "incidadr",
+       "nombre": "Incidencias",
+       "url": "https://www.alcaladelrio.es/es/mas-informacion/incidencias/",
+       "desc": "Formulario de incidencias",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "contratadr",
+       "nombre": "Perfil del contratante",
+       "url": "https://www.alcaladelrio.es/es/ayuntamiento/perfil-del-contratante",
+       "desc": "Licitaciones",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "emasesa",
+       "nombre": "Emasesa, oficina online",
+       "url": "https://www.emasesaonline.com/oficina-online/web/home/",
+       "desc": "Agua: facturas, consumo, contrato",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "emasesaaveria",
+       "nombre": "Emasesa, avería o incidencia",
+       "url": "https://www.emasesa.com/contacta-con-nosotros/reporta-una-incidencia/",
+       "desc": "Comunicar fuga, corte o problema en la red",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "emasesalectura",
+       "nombre": "Emasesa, lectura de contador",
+       "url": "https://www.emasesa.com/usuarios/tu-factura/aportar-lectura-del-contador/",
+       "desc": "Aportar la lectura del contador",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "emasesacita",
+       "nombre": "Emasesa, cita previa",
+       "url": "https://www.emasesa.com/contacta-con-nosotros/cita-previa/",
+       "desc": "Cita en oficina de atención",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "iso": "EU",
+   "nombre": "Unión Europea",
+   "idioma": "en",
+   "secciones": [
+    {
+     "id": "UE",
+     "nombre": "Unión Europea",
+     "nivel": "ue",
+     "entradas": [
+      {
+       "id": "youreurope",
+       "nombre": "Tu Europa",
+       "url": "https://europa.eu/youreurope/citizens/index_es.htm",
+       "desc": "Derechos y trámites en la UE: residir, trabajar, viajar, sanidad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "eulogin",
+       "nombre": "EU Login",
+       "url": "https://ecas.ec.europa.eu/cas/login",
+       "desc": "Cuenta única para los servicios de la Comisión",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "europass",
+       "nombre": "Europass",
+       "url": "https://europa.eu/europass/es",
+       "desc": "CV y perfil profesional europeo",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "eures",
+       "nombre": "EURES",
+       "url": "https://eures.europa.eu/index_es",
+       "desc": "Empleo en otros países de la UE",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "solvit",
+       "nombre": "SOLVIT",
+       "url": "https://ec.europa.eu/solvit/index_es.htm",
+       "desc": "Reclamaciones contra administraciones de otro Estado miembro",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ejustice",
+       "nombre": "Portal e-Justicia",
+       "url": "https://e-justice.europa.eu/home?action=home&plang=es",
+       "desc": "Justicia transfronteriza, formularios, registros",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ombudsman",
+       "nombre": "Defensor del Pueblo Europeo",
+       "url": "https://www.ombudsman.europa.eu/es/home",
+       "desc": "Quejas contra instituciones de la UE",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "peticiones",
+       "nombre": "Peticiones al Parlamento Europeo",
+       "url": "https://www.europarl.europa.eu/petitions/es/home",
+       "desc": "Presentar y apoyar peticiones",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ice",
+       "nombre": "Iniciativa Ciudadana Europea",
+       "url": "https://citizens-initiative.europa.eu/_es",
+       "desc": "Firmar iniciativas ciudadanas",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "haveyoursay",
+       "nombre": "Díganos lo que piensa",
+       "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say_es",
+       "desc": "Consultas públicas de la Comisión",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "eurlex",
+       "nombre": "EUR-Lex",
+       "url": "https://eur-lex.europa.eu/homepage.html?locale=es",
+       "desc": "Legislación de la UE",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pasajeros",
+       "nombre": "Derechos de los pasajeros",
+       "url": "https://europa.eu/youreurope/citizens/travel/passenger-rights/index_es.htm",
+       "desc": "Retrasos, cancelaciones, equipaje",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cec",
+       "nombre": "Centro Europeo del Consumidor",
+       "url": "https://cec.consumo.gob.es/",
+       "desc": "Reclamaciones de consumo transfronterizas",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "contacto",
+       "nombre": "Contactar con la UE",
+       "url": "https://european-union.europa.eu/contact-eu/write-us_es",
+       "desc": "Europe Direct: preguntas por escrito",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "vies",
+       "nombre": "VIES, validar NIF-IVA",
+       "url": "https://ec.europa.eu/taxation_customs/vies/",
+       "desc": "Comprobar el IVA intracomunitario de un cliente",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ted",
+       "nombre": "TED, licitaciones",
+       "url": "https://ted.europa.eu/es/",
+       "desc": "Contratación pública europea",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "fundingtenders",
+       "nombre": "Funding & Tenders",
+       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+       "desc": "Convocatorias y proyectos (Horizonte Europa, Digital Europe)",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "euipo",
+       "nombre": "EUIPO",
+       "url": "https://www.euipo.europa.eu/es",
+       "desc": "Marcas y diseños de la UE",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "dataeuropa",
+       "nombre": "data.europa.eu",
+       "url": "https://data.europa.eu/es",
+       "desc": "Datos abiertos europeos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "AT",
+   "nombre": "Austria",
+   "idioma": "de",
+   "secciones": [
+    {
+     "id": "AT-GOV",
+     "nombre": "Gobierno federal",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "at-oesterreich",
+       "nombre": "oesterreich.gv.at (portal de trámites)",
+       "url": "https://www.oesterreich.gv.at/",
+       "desc": "Portal oficial de trámites de la administración austriaca",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-finanzonline",
+       "nombre": "FinanzOnline (impuestos)",
+       "url": "https://finanzonline.bmf.gv.at/",
+       "desc": "Declaración y gestión de impuestos del Ministerio de Finanzas",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-oegk",
+       "nombre": "ÖGK (seguro de salud)",
+       "url": "https://www.gesundheitskasse.at/",
+       "desc": "Seguro de salud ÖGK: tarjeta e-card, reembolsos y consultas",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-ams",
+       "nombre": "AMS (empleo)",
+       "url": "https://www.ams.at/",
+       "desc": "Servicio público de empleo: demandas de empleo y prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "at-oebb",
+       "nombre": "ÖBB (trenes)",
+       "url": "https://www.oebb.at/",
+       "desc": "Horarios, billetes y cuenta de cliente de los trenes federales",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-post",
+       "nombre": "Österreichische Post AG (correos)",
+       "url": "https://www.post.at/",
+       "desc": "Envíos, seguimiento de paquetes y servicios postales",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-wienerlinien",
+       "nombre": "Wiener Linien (transporte público de Viena)",
+       "url": "https://www.wienerlinien.at/",
+       "desc": "Horarios y billetes del transporte público de Viena",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-salzburg-ag",
+       "nombre": "Salzburg AG (energía)",
+       "url": "https://www.salzburg-ag.at/",
+       "desc": "Suministro de electricidad, gas y agua en Salzburgo",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-LAND-NIEDEROESTERREICH",
+     "nombre": "Baja Austria",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "at-noe",
+       "nombre": "Land Niederösterreich (portal)",
+       "url": "https://www.noe.gv.at/",
+       "desc": "Portal del Land de Baja Austria",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-LAND-OBEROESTERREICH",
+     "nombre": "Alta Austria",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "at-ooe",
+       "nombre": "Land Oberösterreich (portal)",
+       "url": "https://www.land-oberoesterreich.gv.at/",
+       "desc": "Portal del Land de Alta Austria",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-LAND-STEIERMARK",
+     "nombre": "Estiria",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "at-stmk",
+       "nombre": "Land Steiermark (portal)",
+       "url": "https://www.verwaltung.steiermark.at/",
+       "desc": "Portal del Land de Estiria",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-LAND-TIROL",
+     "nombre": "Tirol",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "at-tirol",
+       "nombre": "Land Tirol (portal)",
+       "url": "https://www.tirol.gv.at/",
+       "desc": "Portal del Land de Tirol",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-LAND-KARNTEN",
+     "nombre": "Carintia",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "at-ktn",
+       "nombre": "Land Kärnten (portal)",
+       "url": "https://www.ktn.gv.at/",
+       "desc": "Portal del Land de Carintia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-CIUDAD-VIENA",
+     "nombre": "Viena (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "at-wien",
+       "nombre": "Wien.gv.at (portal de la ciudad)",
+       "url": "https://www.wien.gv.at/",
+       "desc": "Trámites y servicios municipales de Viena",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "at-wiener-wohnen",
+       "nombre": "Wiener Wohnen (vivienda municipal)",
+       "url": "https://www.wienerwohnen.at/",
+       "desc": "Alquiler de vivienda municipal, contratos y reparaciones en Viena",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-CIUDAD-GRAZ",
+     "nombre": "Graz (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "at-graz",
+       "nombre": "Stadt Graz (portal)",
+       "url": "https://www.graz.at/",
+       "desc": "Trámites y servicios municipales de Graz",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-CIUDAD-LINZ",
+     "nombre": "Linz (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "at-linz",
+       "nombre": "Stadt Linz (portal)",
+       "url": "https://www.linz.at/",
+       "desc": "Trámites y servicios municipales de Linz",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "AT-CIUDAD-SALZBURGO",
+     "nombre": "Salzburgo (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "at-salzburg",
+       "nombre": "Stadt Salzburg (portal)",
+       "url": "https://www.stadt-salzburg.at/",
+       "desc": "Trámites y servicios municipales de Salzburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "BE",
+   "nombre": "Bélgica",
+   "idioma": "nl",
+   "secciones": [
+    {
+     "id": "BE-REGION",
+     "nombre": "Regiones",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "be-vlaanderen",
+       "nombre": "Vlaanderen",
+       "url": "https://www.vlaanderen.be/",
+       "desc": "Portal de la Región Flamenca",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-brussel-region",
+       "nombre": "Brussels.be (Región de Bruselas-Capital)",
+       "url": "https://www.brussels.be/",
+       "desc": "Portal de la Región de Bruselas-Capital",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "BE-MUNICIPIO",
+     "nombre": "Grandes ciudades",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "be-bruxelles",
+       "nombre": "Ville de Bruxelles",
+       "url": "https://www.bruxelles.be/",
+       "desc": "Trámites municipales de la ciudad de Bruselas",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-gent",
+       "nombre": "Stad Gent",
+       "url": "https://www.gent.be/",
+       "desc": "Trámites municipales de Gante",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "BE-SERVICIO",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "be-bpost",
+       "nombre": "bpost",
+       "url": "https://www.bpost.be/",
+       "desc": "Correos y paquetería",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-delijn",
+       "nombre": "De Lijn",
+       "url": "https://www.delijn.be/",
+       "desc": "Transporte público en Flandes",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-vivaqua",
+       "nombre": "Vivaqua",
+       "url": "https://www.vivaqua.be/",
+       "desc": "Distribuidora de agua potable en Bruselas",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-dewatergroep",
+       "nombre": "De Watergroep",
+       "url": "https://www.dewatergroep.be/",
+       "desc": "Distribuidora regional de agua en Flandes",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-swde",
+       "nombre": "SWDE",
+       "url": "https://www.swde.be/",
+       "desc": "Distribuidora regional de agua en Valonia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "be-pidpa",
+       "nombre": "Pidpa",
+       "url": "https://www.pidpa.be/",
+       "desc": "Distribuidora regional de agua (zona de Amberes)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "BG",
+   "nombre": "Bulgaria",
+   "idioma": "bg",
+   "secciones": [
+    {
+     "id": "BG-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "bg-egov",
+       "nombre": "eGov.bg",
+       "url": "https://egov.bg",
+       "desc": "Portal de la administración electrónica",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "bg-nra",
+       "nombre": "NRA (Agencia Nacional de Ingresos)",
+       "url": "https://www.nra.bg",
+       "desc": "Agencia tributaria: impuestos y declaraciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "bg-nhif",
+       "nombre": "NHIF (Seguro de salud)",
+       "url": "https://www.nhif.bg",
+       "desc": "Seguro de salud público",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "BG-SERV",
+     "nombre": "Servicios públicos (Sofía)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "bg-sofiyskavoda",
+       "nombre": "Sofiyska voda",
+       "url": "https://www.sofiyskavoda.bg",
+       "desc": "Agua y alcantarillado de Sofía",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "bg-sofiatraffic",
+       "nombre": "Sofia Traffic (transporte público)",
+       "url": "https://www.sofiatraffic.bg",
+       "desc": "Transporte público de Sofía",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "bg-bgpost",
+       "nombre": "Български пощи",
+       "url": "https://www.bgpost.bg",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "CH",
+   "nombre": "Suiza",
+   "idioma": "de",
+   "secciones": [
+    {
+     "id": "CH-CONF",
+     "nombre": "Confederación",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "ch-ch-portal",
+       "nombre": "ch.ch (portal de trámites)",
+       "url": "https://www.ch.ch/de/",
+       "desc": "Portal oficial de trámites de la Confederación, los cantones y los municipios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-ahv-iv",
+       "nombre": "AHV/AVS e IV/AI (seguros sociales federales)",
+       "url": "https://www.ahv-iv.ch/",
+       "desc": "Información sobre pensiones AHV/AVS y seguro de invalidez AI/IV",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CANTON-ZURICH",
+     "nombre": "Cantón de Zúrich",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "ch-zh-portal",
+       "nombre": "Cantón de Zúrich (portal)",
+       "url": "https://www.zh.ch/",
+       "desc": "Portal del cantón de Zúrich",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-zh-steuern",
+       "nombre": "Steueramt Zürich (impuestos)",
+       "url": "https://www.steueramt.zh.ch/",
+       "desc": "Declaración de impuestos del cantón de Zúrich",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CANTON-GINEBRA",
+     "nombre": "Cantón de Ginebra",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "ch-ge-portal",
+       "nombre": "Cantón de Ginebra (portal)",
+       "url": "https://www.ge.ch/",
+       "desc": "Portal del cantón de Ginebra (Canton de Genève)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "ch-ge-impots",
+       "nombre": "Impuestos de Ginebra (Administration fiscale)",
+       "url": "https://www.ge.ch/dossier/vos-impots",
+       "desc": "Impuestos del cantón de Ginebra: declaración y consulta",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "CH-CANTON-BERNA",
+     "nombre": "Cantón de Berna",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "ch-be-portal",
+       "nombre": "Cantón de Berna (portal)",
+       "url": "https://www.be.ch/",
+       "desc": "Portal del cantón de Berna",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CANTON-VAUD",
+     "nombre": "Cantón de Vaud",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "ch-vd-portal",
+       "nombre": "Cantón de Vaud (portal)",
+       "url": "https://www.vd.ch/",
+       "desc": "Portal del cantón de Vaud (Lausana)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "CH-CANTON-ARGOVIA",
+     "nombre": "Cantón de Argovia (Aargau)",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "ch-ag-portal",
+       "nombre": "Cantón de Argovia (portal)",
+       "url": "https://www.ag.ch/",
+       "desc": "Portal del cantón de Argovia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-ZURICH",
+     "nombre": "Zúrich (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-zh-ciudad",
+       "nombre": "Ciudad de Zúrich (portal)",
+       "url": "https://www.stadt-zuerich.ch/",
+       "desc": "Trámites y servicios municipales de la ciudad de Zúrich",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-GINEBRA",
+     "nombre": "Ginebra (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-ge-ville",
+       "nombre": "Ville de Genève (portal)",
+       "url": "https://www.ville-ge.ch/",
+       "desc": "Trámites y servicios municipales de la ciudad de Ginebra",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-BASILEA",
+     "nombre": "Basilea (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-bs-portal",
+       "nombre": "Basel-Stadt (portal)",
+       "url": "https://www.bs.ch/",
+       "desc": "Portal del cantón-ciudad de Basilea-Ciudad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-LAUSANA",
+     "nombre": "Lausana (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-lausanne",
+       "nombre": "Ville de Lausanne (portal)",
+       "url": "https://www.lausanne.ch/",
+       "desc": "Trámites y servicios municipales de Lausana",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-WINTERTHUR",
+     "nombre": "Winterthur (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-winterthur",
+       "nombre": "Stadt Winterthur (portal)",
+       "url": "https://www.winterthur.ch/",
+       "desc": "Trámites y servicios municipales de Winterthur",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-LUGANO",
+     "nombre": "Lugano (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-lugano",
+       "nombre": "Città di Lugano (portal)",
+       "url": "https://www.lugano.ch/",
+       "desc": "Trámites y servicios municipales de Lugano",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "it"
+      }
+     ]
+    },
+    {
+     "id": "CH-CIUDAD-SANGALLO",
+     "nombre": "San Galo (ciudad)",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ch-sg-ciudad",
+       "nombre": "Stadt St. Gallen (portal)",
+       "url": "https://www.stadt.sg.ch/",
+       "desc": "Trámites y servicios municipales de San Galo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "CH-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "ch-post",
+       "nombre": "La Poste (Swiss Post)",
+       "url": "https://www.post.ch/",
+       "desc": "Envíos, seguimiento de paquetes y servicios postales",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-ewz",
+       "nombre": "ewz (electricidad, Zúrich)",
+       "url": "https://www.ewz.ch/",
+       "desc": "Suministro eléctrico y cuenta de cliente en Zúrich",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-sig",
+       "nombre": "SIG (agua, gas y electricidad, Ginebra)",
+       "url": "https://www.sig-ge.ch/",
+       "desc": "Suministro de agua, gas y electricidad en Ginebra",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "ch-zvv",
+       "nombre": "ZVV (transporte público de Zúrich)",
+       "url": "https://www.zvv.ch/",
+       "desc": "Horarios y billetes del transporte público de Zúrich",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-bvb",
+       "nombre": "BVB (transporte público de Basilea)",
+       "url": "https://www.bvb.ch/",
+       "desc": "Horarios y billetes del transporte público de Basilea",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "ch-vbl",
+       "nombre": "vbl (transporte público de Lucerna)",
+       "url": "https://www.vbl.ch/",
+       "desc": "Horarios y billetes del transporte público de Lucerna",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "CY",
+   "nombre": "Chipre",
+   "idioma": "el",
+   "secciones": [
+    {
+     "id": "CY-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "cy-taxisnet",
+       "nombre": "TAXISnet (Departamento de Impuestos)",
+       "url": "https://taxisnet.mof.gov.cy",
+       "desc": "Impuestos y declaraciones; acceso con CY Login",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cy-taxforall",
+       "nombre": "Tax For All",
+       "url": "https://taxforall.mof.gov.cy",
+       "desc": "Nuevo portal fiscal unificado (en despliegue)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cy-dle",
+       "nombre": "Servicio público de empleo (PESCPS)",
+       "url": "https://pescps.dl.mlsi.gov.cy",
+       "desc": "Empleo; requiere CY Login desde 2025",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "CY-NIC",
+     "nombre": "Nicosia",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "cy-nicosia",
+       "nombre": "Municipio de Nicosia",
+       "url": "https://www.nicosia.org.cy",
+       "desc": "Portal oficial del municipio de Nicosia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "CZ",
+   "nombre": "Chequia",
+   "idioma": "cs",
+   "secciones": [
+    {
+     "id": "CZ-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "cz-portal-gov",
+       "nombre": "Portál veřejné správy",
+       "url": "https://portal.gov.cz",
+       "desc": "Portal de la administración pública checa",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-obcan",
+       "nombre": "Portál občana",
+       "url": "https://obcan.portal.gov.cz",
+       "desc": "Portal del ciudadano; identidad digital (eID / NIA)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-financni",
+       "nombre": "Finanční správa",
+       "url": "https://www.financnisprava.cz",
+       "desc": "Agencia tributaria: declaraciones e impuestos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-vzp",
+       "nombre": "Všeobecná zdravotní pojišťovna",
+       "url": "https://www.vzp.cz",
+       "desc": "Seguro de salud público (mayor aseguradora)",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-mpsv",
+       "nombre": "Ministerstvo práce a sociálních věcí",
+       "url": "https://www.mpsv.cz",
+       "desc": "Ministerio de trabajo; portal de empleo y Úřad práce (portal propio no alcanzable)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "CZ-PRAHA",
+     "nombre": "Praga",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "cz-praha",
+       "nombre": "Praha.eu (Hlavní město Praha)",
+       "url": "https://www.prague.eu",
+       "desc": "Portal oficial de la ciudad de Praga",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "CZ-SERV",
+     "nombre": "Servicios públicos (Praga)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "cz-pvk",
+       "nombre": "Pražská vodohospodářská společnost",
+       "url": "https://www.pvk.cz",
+       "desc": "Agua y alcantarillado de Praga",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-dpp",
+       "nombre": "Dopravní podnik hl. m. Prahy",
+       "url": "https://www.dpp.cz",
+       "desc": "Transporte público de Praga",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "cz-posta",
+       "nombre": "Česká pošta",
+       "url": "https://www.ceskaposta.cz",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "DE",
+   "nombre": "Alemania",
+   "idioma": "de",
+   "secciones": [
+    {
+     "id": "DE-BUND",
+     "nombre": "Gobierno federal",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "de-elster",
+       "nombre": "ELSTER (impuestos)",
+       "url": "https://www.elster.de/",
+       "desc": "Declaración de impuestos ante Hacienda (Finanzamt)",
+       "auth": "certificado",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bund",
+       "nombre": "Portal de servicios del Gobierno federal",
+       "url": "https://www.bund.de/",
+       "desc": "Información y acceso a servicios de la Administración federal",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bundid",
+       "nombre": "BundID (cuenta de usuario de la Administración)",
+       "url": "https://id.bund.de/",
+       "desc": "Cuenta única para trámites federales; acceso con eID (Personalausweis) o con usuario y contraseña",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-arbeitsagentur",
+       "nombre": "Bundesagentur für Arbeit (empleo)",
+       "url": "https://www.arbeitsagentur.de/",
+       "desc": "Empleo, prestaciones por desempleo y 'Meine Arbeitsagentur'",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-rentenversicherung",
+       "nombre": "Deutsche Rentenversicherung (pensiones)",
+       "url": "https://www.deutsche-rentenversicherung.de/",
+       "desc": "Pensiones y cuenta de seguro de pensiones (Rentenkonto)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-familienkasse",
+       "nombre": "Familienkasse (Kindergeld)",
+       "url": "https://www.familienkasse.de/",
+       "desc": "Subsidio por hijos (Kindergeld) y prestaciones familiares",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-kba",
+       "nombre": "Kraftfahrt-Bundesamt (KBA)",
+       "url": "https://www.kba.de/",
+       "desc": "Autoridad federal de vehículos: puntos, registro y homologación",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-handelsregister",
+       "nombre": "Handelsregister (registro mercantil)",
+       "url": "https://www.handelsregister.de/",
+       "desc": "Consulta del registro mercantil y de sociedades",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-NRW",
+     "nombre": "Nordrhein-Westfalen",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "de-nrw-landesportal",
+       "nombre": "Landesportal Nordrhein-Westfalen",
+       "url": "https://www.land.nrw/",
+       "desc": "Portal oficial del Land: información y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-BY",
+     "nombre": "Bayern",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "de-bayern-portal",
+       "nombre": "bayern.de (portal del Freistaat)",
+       "url": "https://www.bayern.de/",
+       "desc": "Portal oficial del Estado Libre de Baviera",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bayern-service",
+       "nombre": "Service Bayern (trámites)",
+       "url": "https://www.service.bayern.de/",
+       "desc": "Trámites y servicios administrativos de Baviera",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-BW",
+     "nombre": "Baden-Württemberg",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "de-bw-portal",
+       "nombre": "Landesportal Baden-Württemberg",
+       "url": "https://www.baden-wuerttemberg.de/",
+       "desc": "Portal oficial del Land",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bw-service",
+       "nombre": "Service-BW (trámites)",
+       "url": "https://www.service-bw.de/",
+       "desc": "Servicios administrativos del Land",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-NI",
+     "nombre": "Niedersachsen",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "de-niedersachsen-service",
+       "nombre": "Servicio de la Administración de Baja Sajonia",
+       "url": "https://www.service.niedersachsen.de/",
+       "desc": "Trámites y servicios de la Administración del Land",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-HE",
+     "nombre": "Hessen",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "de-hessen-portal",
+       "nombre": "Landesportal Hessen",
+       "url": "https://www.hessen.de/",
+       "desc": "Portal oficial del Land",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-hessen-verwaltungsportal",
+       "nombre": "Verwaltungsportal Hessen (trámites)",
+       "url": "https://verwaltungsportal.hessen.de/",
+       "desc": "Trámites de la Administración de Hesse",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-BERLIN",
+     "nombre": "Berlín",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "de-berlin-service",
+       "nombre": "Service Berlin (trámites)",
+       "url": "https://service.berlin.de/",
+       "desc": "Portal de servicios del Land y ciudad de Berlín: citas y trámites",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-BERLIN-SERVICIOS",
+     "nombre": "Berlín: servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-bvg",
+       "nombre": "BVG (transporte público)",
+       "url": "https://www.bvg.de/",
+       "desc": "Metro, tranvía, autobús y horarios en Berlín",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bwb",
+       "nombre": "Berliner Wasserbetriebe (agua)",
+       "url": "https://www.bwb.de/",
+       "desc": "Suministro de agua y alcantarillado de Berlín",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-bsr",
+       "nombre": "BSR (recogida de residuos)",
+       "url": "https://www.bsr.de/",
+       "desc": "Recogida de residuos y calendario en Berlín",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-HAMBURG",
+     "nombre": "Hamburgo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "de-hamburg-portal",
+       "nombre": "hamburg.de (portal de la ciudad-Estado)",
+       "url": "https://www.hamburg.de/",
+       "desc": "Portal oficial de la ciudad-Estado de Hamburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-HAMBURG-SERVICIOS",
+     "nombre": "Hamburgo: servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-hochbahn",
+       "nombre": "Hochbahn (metro y autobús)",
+       "url": "https://www.hochbahn.de/",
+       "desc": "Operador de metro y autobuses de Hamburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-hvv",
+       "nombre": "HVV (tarifas y transporte)",
+       "url": "https://www.hvv.de/",
+       "desc": "Red tarifaria del transporte público del área de Hamburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-hamburg-wasser",
+       "nombre": "Hamburg Wasser (agua)",
+       "url": "https://www.hamburgwasser.de/",
+       "desc": "Suministro de agua y alcantarillado de Hamburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-stadtreinigung-hamburg",
+       "nombre": "Stadtreinigung Hamburg (residuos)",
+       "url": "https://www.stadtreinigung.hamburg/",
+       "desc": "Recogida de residuos y limpieza urbana",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-MUENCHEN",
+     "nombre": "Múnich",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "de-muenchen-portal",
+       "nombre": "Stadt München (portal de la ciudad)",
+       "url": "https://stadt.muenchen.de/",
+       "desc": "Portal oficial de la ciudad de Múnich y sus trámites",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-MUENCHEN-SERVICIOS",
+     "nombre": "Múnich: servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-mvg",
+       "nombre": "MVG (transporte público)",
+       "url": "https://www.mvg.de/",
+       "desc": "Metro, tranvía y autobús de Múnich",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-swm",
+       "nombre": "Stadtwerke München (energía, agua y transporte)",
+       "url": "https://www.swm.de/",
+       "desc": "Energía, agua y servicios municipales; portal de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-KOELN",
+     "nombre": "Colonia",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "de-koeln-portal",
+       "nombre": "Stadt Köln (portal de la ciudad)",
+       "url": "https://www.stadt-koeln.de/",
+       "desc": "Portal oficial de la ciudad de Colonia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-koeln-service",
+       "nombre": "Stadt Köln: servicios y trámites",
+       "url": "https://www.stadt-koeln.de/service/",
+       "desc": "Trámites y servicios de la ciudad de Colonia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-KOELN-SERVICIOS",
+     "nombre": "Colonia: servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-rheinenergie",
+       "nombre": "RheinEnergie (energía y agua)",
+       "url": "https://www.rheinenergie.com/",
+       "desc": "Electricidad, gas y agua en Colonia; portal de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-awb-koeln",
+       "nombre": "AWB Köln (residuos)",
+       "url": "https://www.awbkoeln.de/",
+       "desc": "Recogida de residuos en Colonia",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-FRANKFURT-SERVICIOS",
+     "nombre": "Fráncfort del Meno: servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-mainova",
+       "nombre": "Mainova (energía)",
+       "url": "https://www.mainova.de/",
+       "desc": "Electricidad, gas y agua en Fráncfort; portal de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      },
+      {
+       "id": "de-traffiq",
+       "nombre": "traffiq (VGF, transporte público)",
+       "url": "https://www.traffiq.de/",
+       "desc": "Metro, tranvía y autobús de Fráncfort",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    },
+    {
+     "id": "DE-SERVICIOS",
+     "nombre": "Servicios públicos de ámbito nacional",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "de-deutsche-bahn",
+       "nombre": "Deutsche Bahn (trenes de larga distancia)",
+       "url": "https://www.bahn.de/",
+       "desc": "Billetes y horarios de trenes de larga distancia y regionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "de"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "DK",
+   "nombre": "Dinamarca",
+   "idioma": "da",
+   "secciones": [
+    {
+     "id": "DK-REGION-MIDTJYLLAND",
+     "nombre": "Región Midtjylland",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "dk-region-midtjylland",
+       "nombre": "Región Midtjylland",
+       "url": "https://www.rm.dk/",
+       "desc": "Portal regional: sanidad y servicios regionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      }
+     ]
+    },
+    {
+     "id": "DK-CIUDAD-KOBENHAVN",
+     "nombre": "Copenhague",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "dk-kobenhavn",
+       "nombre": "Københavns Kommune",
+       "url": "https://www.kk.dk/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      }
+     ]
+    },
+    {
+     "id": "DK-CIUDAD-AARHUS",
+     "nombre": "Aarhus",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "dk-aarhus",
+       "nombre": "Aarhus Kommune",
+       "url": "https://aarhus.dk/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      }
+     ]
+    },
+    {
+     "id": "DK-CIUDAD-ODENSE",
+     "nombre": "Odense",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "dk-odense",
+       "nombre": "Odense Kommune",
+       "url": "https://www.odense.dk/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      }
+     ]
+    },
+    {
+     "id": "DK-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "dk-dsb",
+       "nombre": "DSB",
+       "url": "https://www.dsb.dk/",
+       "desc": "Tren: billetes y cuenta de cliente",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      },
+      {
+       "id": "dk-rejsekort",
+       "nombre": "Rejsekort",
+       "url": "https://www.rejsekort.dk/da-dk",
+       "desc": "Tarjeta de transporte público: recarga y saldo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      },
+      {
+       "id": "dk-movia",
+       "nombre": "Movia",
+       "url": "https://www.moviatrafik.dk/",
+       "desc": "Transporte público en Sjælland y Copenhague: billetes y app",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "da"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "EE",
+   "nombre": "Estonia",
+   "idioma": "et",
+   "secciones": [
+    {
+     "id": "EE-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "ee-eesti",
+       "nombre": "eesti.ee",
+       "url": "https://www.eesti.ee",
+       "desc": "Portal de referencia de la administración digital (servicios del Estado)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ee-emta",
+       "nombre": "EMTA (Maksu- ja Tolliamet)",
+       "url": "https://www.emta.ee",
+       "desc": "Agencia tributaria: impuestos y declaraciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ee-tervisekassa",
+       "nombre": "Tervisekassa (Seguro de salud)",
+       "url": "https://www.tervisekassa.ee",
+       "desc": "Seguro de salud público",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ee-tootukassa",
+       "nombre": "Töötukassa (Servicio de empleo)",
+       "url": "https://www.tootukassa.ee",
+       "desc": "Empleo y prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "EE-SERV",
+     "nombre": "Servicios públicos (Tallin)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "ee-tallinnavesi",
+       "nombre": "Tallinna Vesi",
+       "url": "https://www.tallinnavesi.ee",
+       "desc": "Agua y alcantarillado de Tallin",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ee-tlt",
+       "nombre": "TLT (transporte público)",
+       "url": "https://tlt.ee",
+       "desc": "Transporte público de Tallin",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ee-omniva",
+       "nombre": "Omniva (correos)",
+       "url": "https://www.omniva.ee",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "FI",
+   "nombre": "Finlandia",
+   "idioma": "fi",
+   "secciones": [
+    {
+     "id": "FI-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "fi-suomifi",
+       "nombre": "Suomi.fi",
+       "url": "https://www.suomi.fi/",
+       "desc": "Portal de servicios públicos y acceso a trámites de la administración",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-vero",
+       "nombre": "Verohallinto (OmaVero)",
+       "url": "https://www.vero.fi/",
+       "desc": "Impuestos: declaración de la renta, datos fiscales, OmaVero",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-kela",
+       "nombre": "Kela (Kansaneläkelaitos)",
+       "url": "https://www.kela.fi/",
+       "desc": "Prestaciones sociales, subsidios, pensiones, Kela online",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-traficom",
+       "nombre": "Traficom",
+       "url": "https://www.traficom.fi/",
+       "desc": "Autoridad de transporte y comunicaciones: vehículos, licencias y registros",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-te-palvelut",
+       "nombre": "TE-palvelut (Työnvälitys)",
+       "url": "https://www.te-palvelut.fi/",
+       "desc": "Empleo: búsqueda de trabajo, inscripción como desempleado, prestaciones de empleo",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-opintopolku",
+       "nombre": "Opintopolku",
+       "url": "https://opintopolku.fi/",
+       "desc": "Estudios: admisiones, becas y oferta educativa",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-prh",
+       "nombre": "PRH (Patentti- ja rekisterihallitus)",
+       "url": "https://www.prh.fi/",
+       "desc": "Registros mercantiles y de asociaciones; consulta en Virre",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-ylioppilastutkinto",
+       "nombre": "Ylioppilastutkintolautakunta",
+       "url": "https://www.ylioppilastutkinto.fi/",
+       "desc": "Examen de bachillerato (matriculación): resultados y certificados",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-SALUD",
+     "nombre": "Salud",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "fi-kanta",
+       "nombre": "Kanta (Kanta-palvelut)",
+       "url": "https://www.kanta.fi/",
+       "desc": "Historial de salud y receta electrónica (Kanta)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-omakanta",
+       "nombre": "Omakanta",
+       "url": "https://omakanta.fi/",
+       "desc": "Consulta de datos propios de salud: recetas, historial y consentimientos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-TRANSP",
+     "nombre": "Transporte",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "fi-vr",
+       "nombre": "VR (trenes)",
+       "url": "https://www.vr.fi/",
+       "desc": "Ferrocarril de larga distancia: billetes y cuenta de cliente",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-HEL",
+     "nombre": "Helsinki",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-hel",
+       "nombre": "Ciudad de Helsinki (hel.fi)",
+       "url": "https://www.hel.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites, educación, cuidado y licencias",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-ESP",
+     "nombre": "Espoo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-espoo",
+       "nombre": "Ciudad de Espoo (espoo.fi)",
+       "url": "https://www.espoo.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites y servicios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-TAM",
+     "nombre": "Tampere",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-tampere",
+       "nombre": "Ciudad de Tampere (tampere.fi)",
+       "url": "https://www.tampere.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites y servicios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-VAN",
+     "nombre": "Vantaa",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-vantaa",
+       "nombre": "Ciudad de Vantaa (vantaa.fi)",
+       "url": "https://www.vantaa.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites y servicios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-OUL",
+     "nombre": "Oulu",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-oulu",
+       "nombre": "Ciudad de Oulu (ouka.fi)",
+       "url": "https://www.ouka.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites y servicios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-TUR",
+     "nombre": "Turku",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fi-turku",
+       "nombre": "Ciudad de Turku (turku.fi)",
+       "url": "https://www.turku.fi/",
+       "desc": "Portal de servicios de la ciudad: trámites y servicios municipales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    },
+    {
+     "id": "FI-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "fi-hsy",
+       "nombre": "HSY (agua y residuos, área de Helsinki)",
+       "url": "https://www.hsy.fi/",
+       "desc": "Agua, residuos y medio ambiente para Helsinki, Espoo, Vantaa y Kauniainen",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-helen",
+       "nombre": "Helen (energía, Helsinki)",
+       "url": "https://www.helen.fi/",
+       "desc": "Electricidad, calefacción y agua de Helsinki: alta de contrato y factura",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-turkuenergia",
+       "nombre": "Turku Energia",
+       "url": "https://www.turkuenergia.fi/",
+       "desc": "Energía, electricidad y servicios de red en Turku",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      },
+      {
+       "id": "fi-posti",
+       "nombre": "Posti (correos)",
+       "url": "https://www.posti.fi/",
+       "desc": "Correos y paquetería, seguimiento de envíos",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "FR",
+   "nombre": "Francia",
+   "idioma": "fr",
+   "secciones": [
+    {
+     "id": "FR-ETAT",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "fr-service-public",
+       "nombre": "Service Public",
+       "url": "https://www.service-public.gouv.fr/",
+       "desc": "Información y trámites de la administración",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-ameli",
+       "nombre": "Ameli (Assurance Maladie)",
+       "url": "https://www.ameli.fr/",
+       "desc": "Reembolsos, bajas, Carte Vitale y documentos del asegurado",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-mon-espace-sante",
+       "nombre": "Mon espace santé",
+       "url": "https://www.monespacesante.fr/",
+       "desc": "Historial médico personal",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-caf",
+       "nombre": "CAF (Caisse d'allocations familiales)",
+       "url": "https://www.caf.fr/",
+       "desc": "Prestaciones familiares y de vivienda",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-france-travail",
+       "nombre": "France Travail",
+       "url": "https://www.francetravail.fr/accueil/",
+       "desc": "Búsqueda de empleo y trámites de demandante de empleo",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-ants",
+       "nombre": "ANTS (Agence nationale des titres sécurisés)",
+       "url": "https://ants.gouv.fr/",
+       "desc": "Carte grise (certificado de matrícula) y titulos de identidad",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-ants-permis",
+       "nombre": "Permis de conduire (ANTS)",
+       "url": "https://permisdeconduire.ants.gouv.fr/",
+       "desc": "Permiso de conducir: duplicados, canjes y puntos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-amendes",
+       "nombre": "Amendes.gouv (ANTAI)",
+       "url": "https://www.amendes.gouv.fr/",
+       "desc": "Pago de multas de tráfico",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      },
+      {
+       "id": "fr-moncompteformation",
+       "nombre": "Mon Compte Formation",
+       "url": "https://www.moncompteformation.gouv.fr/",
+       "desc": "Cuenta personal de formación profesional",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-REG-ILE-DE-FRANCE",
+     "nombre": "Île-de-France",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "fr-reg-ile-de-france",
+       "nombre": "Région Île-de-France",
+       "url": "https://www.iledefrance.fr/",
+       "desc": "Portal de la región de Île-de-France",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-REG-AUVERGNE-RHONE-ALPES",
+     "nombre": "Auvergne-Rhône-Alpes",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "fr-reg-auvergne-rhone-alpes",
+       "nombre": "Région Auvergne-Rhône-Alpes",
+       "url": "https://www.auvergnerhonealpes.fr/",
+       "desc": "Portal de la región Auvergne-Rhône-Alpes",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-REG-OCCITANIE",
+     "nombre": "Occitanie",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "fr-reg-occitanie",
+       "nombre": "Région Occitanie",
+       "url": "https://www.laregion.fr/",
+       "desc": "Portal de la región Occitanie",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-REG-NOUVELLE-AQUITAINE",
+     "nombre": "Nouvelle-Aquitaine",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "fr-reg-nouvelle-aquitaine",
+       "nombre": "Région Nouvelle-Aquitaine",
+       "url": "https://www.nouvelle-aquitaine.fr/",
+       "desc": "Portal de la región Nouvelle-Aquitaine",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-REG-HAUTS-DE-FRANCE",
+     "nombre": "Hauts-de-France",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "fr-reg-hauts-de-france",
+       "nombre": "Région Hauts-de-France",
+       "url": "https://www.hautsdefrance.fr/",
+       "desc": "Portal de la región Hauts-de-France",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-DEP-NORD",
+     "nombre": "Nord (departamento)",
+     "nivel": "provincia",
+     "entradas": [
+      {
+       "id": "fr-dep-nord",
+       "nombre": "Département du Nord",
+       "url": "https://www.lenord.fr/",
+       "desc": "Portal del departamento del Nord (servicios sociales y ayudas locales)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-DEP-BOUCHES-DU-RHONE",
+     "nombre": "Bouches-du-Rhône (departamento)",
+     "nivel": "provincia",
+     "entradas": [
+      {
+       "id": "fr-dep-bouches-du-rhone",
+       "nombre": "Département des Bouches-du-Rhône",
+       "url": "https://www.departement13.fr/",
+       "desc": "Portal del departamento de Bouches-du-Rhône (servicios sociales y ayudas locales)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-VILLE-PARIS",
+     "nombre": "Paris",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fr-paris-services",
+       "nombre": "Paris.fr: services en ligne",
+       "url": "https://www.paris.fr/pages/services-en-ligne-202/",
+       "desc": "Trámites municipales en línea de la Ville de Paris",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-VILLE-MARSEILLE",
+     "nombre": "Marseille",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fr-marseille",
+       "nombre": "Ville de Marseille",
+       "url": "https://www.marseille.fr/",
+       "desc": "Portal municipal de Marseille",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-VILLE-LYON",
+     "nombre": "Lyon",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fr-lyon",
+       "nombre": "Ville de Lyon",
+       "url": "https://www.lyon.fr/",
+       "desc": "Portal municipal de Lyon",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-VILLE-TOULOUSE",
+     "nombre": "Toulouse",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fr-toulouse",
+       "nombre": "Toulouse Mairie Métropole",
+       "url": "https://metropole.toulouse.fr/",
+       "desc": "Portal municipal y metropolitano de Toulouse",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-VILLE-NICE",
+     "nombre": "Nice",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "fr-nice",
+       "nombre": "Ville de Nice",
+       "url": "https://www.nice.fr/",
+       "desc": "Portal municipal de Nice",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-SERV-EAU-PARIS",
+     "nombre": "Eau de Paris",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "fr-eau-de-paris",
+       "nombre": "Eau de Paris",
+       "url": "https://www.eaudeparis.fr/",
+       "desc": "Suministro de agua potable en París",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    },
+    {
+     "id": "FR-SERV-ENEDIS",
+     "nombre": "Enedis",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "fr-enedis",
+       "nombre": "Enedis (particulares)",
+       "url": "https://www.enedis.fr/particulier",
+       "desc": "Distribución eléctrica, contadores y reclamaciones",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "fr"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "GB",
+   "nombre": "Reino Unido",
+   "idioma": "en",
+   "secciones": [
+    {
+     "id": "GB-GOV",
+     "nombre": "Gobierno del Reino Unido",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "gb-gov",
+       "nombre": "GOV.UK",
+       "url": "https://www.gov.uk/",
+       "desc": "Portal central de trámites y servicios del Gobierno",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-hmrc",
+       "nombre": "HMRC: cuenta personal fiscal",
+       "url": "https://www.gov.uk/personal-tax-account",
+       "desc": "Impuestos, declaración de la renta (Self Assessment) y cuenta personal",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-dvla-vehicle-tax",
+       "nombre": "DVLA: tasa de circulación",
+       "url": "https://www.gov.uk/vehicle-tax",
+       "desc": "Pago de la tasa de circulación del vehículo (DVLA)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-universal-credit",
+       "nombre": "Universal Credit",
+       "url": "https://www.gov.uk/universal-credit",
+       "desc": "Prestación social: solicitud y seguimiento",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-nhs",
+       "nombre": "NHS",
+       "url": "https://www.nhs.uk/",
+       "desc": "Sanidad pública: información y servicios del NHS",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-passport",
+       "nombre": "Pasaporte (solicitud y renovación)",
+       "url": "https://www.gov.uk/apply-renew-passport",
+       "desc": "Solicitar o renovar el pasaporte británico",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-REG-SCT",
+     "nombre": "Escocia",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "gb-scot-gov",
+       "nombre": "Scottish Government",
+       "url": "https://www.gov.scot/",
+       "desc": "Portal del Gobierno escocés",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-REG-NIR",
+     "nombre": "Irlanda del Norte",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "gb-ni-nidirect",
+       "nombre": "nidirect",
+       "url": "https://www.nidirect.gov.uk/",
+       "desc": "Trámites y servicios del Gobierno de Irlanda del Norte",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-CIUDAD-LON",
+     "nombre": "Londres",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "gb-lon-gla",
+       "nombre": "Greater London Authority",
+       "url": "https://www.london.gov.uk/",
+       "desc": "Portal de la autoridad regional de Londres (no sustituye a los boroughs)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-CIUDAD-LDS",
+     "nombre": "Leeds",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "gb-lds-council",
+       "nombre": "Leeds City Council",
+       "url": "https://www.leeds.gov.uk/",
+       "desc": "Trámites y servicios del ayuntamiento de Leeds",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-CIUDAD-EDI",
+     "nombre": "Edimburgo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "gb-edi-council",
+       "nombre": "City of Edinburgh Council",
+       "url": "https://www.edinburgh.gov.uk/",
+       "desc": "Trámites y servicios del ayuntamiento de Edimburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-SERV-TRANSPORTE",
+     "nombre": "Transporte",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "gb-tfl",
+       "nombre": "Transport for London (TfL)",
+       "url": "https://tfl.gov.uk/",
+       "desc": "Transporte público de Londres: metro, bus y tarjeta Oyster",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-national-rail",
+       "nombre": "National Rail",
+       "url": "https://www.nationalrail.co.uk/",
+       "desc": "Horarios y billetes de tren en todo el país",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "GB-SERV-AGUA",
+     "nombre": "Agua",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "gb-thames-water",
+       "nombre": "Thames Water",
+       "url": "https://www.thameswater.co.uk/",
+       "desc": "Agua en Londres y el Támesis: cuenta de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-severn-trent",
+       "nombre": "Severn Trent",
+       "url": "https://www.severntrent.com/",
+       "desc": "Agua en las Midlands (incluye Birmingham): cuenta de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "gb-yorkshire-water",
+       "nombre": "Yorkshire Water",
+       "url": "https://www.yorkshirewater.com/",
+       "desc": "Agua en Yorkshire (incluye Leeds): cuenta de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "HR",
+   "nombre": "Croacia",
+   "idioma": "hr",
+   "secciones": [
+    {
+     "id": "HR-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "hr-gov",
+       "nombre": "Vlada Republike Hrvatske (gov.hr)",
+       "url": "https://gov.hr",
+       "desc": "Portal del Gobierno y acceso a trámites",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hr-porezna",
+       "nombre": "Porezna uprava",
+       "url": "https://porezna-uprava.gov.hr",
+       "desc": "Agencia tributaria: impuestos y declaraciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hr-hzzo",
+       "nombre": "HZZO (Seguro de salud)",
+       "url": "https://www.hzzo.hr",
+       "desc": "Seguro de salud público",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hr-hzz",
+       "nombre": "HZZ (Servicio de empleo)",
+       "url": "https://www.hzz.hr",
+       "desc": "Empleo y prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "HR-ZAG",
+     "nombre": "Zagreb",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "hr-zagreb",
+       "nombre": "Grad Zagreb",
+       "url": "https://www.zagreb.hr",
+       "desc": "Portal oficial de la capital",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "HR-SERV",
+     "nombre": "Servicios públicos (Zagreb)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "hr-vio",
+       "nombre": "Vodoopskrba i odvodnja Zagreb",
+       "url": "https://www.vio.hr",
+       "desc": "Agua y alcantarillado de Zagreb",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hr-zet",
+       "nombre": "ZET (transporte público)",
+       "url": "https://www.zet.hr",
+       "desc": "Transporte público de Zagreb",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hr-posta",
+       "nombre": "Hrvatska pošta",
+       "url": "https://www.posta.hr",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "HU",
+   "nombre": "Hungría",
+   "idioma": "hu",
+   "secciones": [
+    {
+     "id": "HU-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "hu-magyarorszag",
+       "nombre": "Magyarország.hu",
+       "url": "https://magyarorszag.hu",
+       "desc": "Portal de la administración pública; trámites en línea (identidad electrónica)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hu-nav",
+       "nombre": "NAV (Adó- és Vámhivatal)",
+       "url": "https://nav.gov.hu",
+       "desc": "Agencia tributaria: impuestos y declaraciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hu-neak",
+       "nombre": "NEAK (Seguro de salud)",
+       "url": "https://neak.gov.hu",
+       "desc": "Seguro de salud público",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hu-nfsz",
+       "nombre": "NFSZ (Servicio nacional de empleo)",
+       "url": "https://nfsz.munka.hu",
+       "desc": "Empleo y prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "HU-BUD",
+     "nombre": "Budapest",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "hu-budapest",
+       "nombre": "Budapest Főváros",
+       "url": "https://www.budapest.hu",
+       "desc": "Portal oficial de la capital",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "HU-SERV",
+     "nombre": "Servicios públicos (Budapest)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "hu-vizmuvek",
+       "nombre": "Fővárosi Vízművek",
+       "url": "https://www.vizmuvek.hu",
+       "desc": "Agua de Budapest",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hu-bkk",
+       "nombre": "BKK (transporte público)",
+       "url": "https://www.bkk.hu",
+       "desc": "Transporte público de Budapest",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "hu-posta",
+       "nombre": "Magyar Posta",
+       "url": "https://www.posta.hu",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "IE",
+   "nombre": "Irlanda",
+   "idioma": "en",
+   "secciones": [
+    {
+     "id": "IE-GOV",
+     "nombre": "Gobierno de Irlanda",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "ie-revenue",
+       "nombre": "Revenue (impuestos) myAccount",
+       "url": "https://www.revenue.ie/",
+       "desc": "Impuestos y cuenta myAccount de Revenue",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-ros",
+       "nombre": "ROS (Revenue Online Service)",
+       "url": "https://www.ros.ie/",
+       "desc": "Declaraciones fiscales de empresas y autónomos",
+       "auth": "certificado",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-dsp-mywelfare",
+       "nombre": "MyWelfare (Protección Social)",
+       "url": "https://services.mywelfare.ie/",
+       "desc": "Prestaciones del Department of Social Protection",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-motortax",
+       "nombre": "Motor Tax",
+       "url": "https://www.motortax.ie/",
+       "desc": "Pago de la tasa de circulación del vehículo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IE-CIUDAD-DUB",
+     "nombre": "Dublín",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ie-dublin-council",
+       "nombre": "Dublin City Council",
+       "url": "https://www.dublincity.ie/",
+       "desc": "Trámites y servicios del ayuntamiento de Dublín",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IE-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "ie-irish-rail",
+       "nombre": "Irish Rail (Iarnród Éireann)",
+       "url": "https://www.irishrail.ie/",
+       "desc": "Trenes nacionales: horarios y billetes",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-leap-card",
+       "nombre": "Leap Card",
+       "url": "https://www.leapcard.ie/",
+       "desc": "Tarjeta de transporte público en Dublín y alrededores: recarga y cuenta",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-an-post",
+       "nombre": "An Post",
+       "url": "https://www.anpost.com/",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-uisce-eireann",
+       "nombre": "Uisce Éireann (Irish Water)",
+       "url": "https://www.water.ie/",
+       "desc": "Agua y saneamiento: cuenta de cliente",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ie-esb-networks",
+       "nombre": "ESB Networks",
+       "url": "https://www.esbnetworks.ie/",
+       "desc": "Gestor de red eléctrica: conexiones y datos de suministro",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "IT",
+   "nombre": "Italia",
+   "idioma": "it",
+   "secciones": [
+    {
+     "id": "IT-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "it-agenzia-entrate",
+       "nombre": "Agenzia delle Entrate (Fisco online)",
+       "url": "https://telematici.agenziaentrate.gov.it/",
+       "desc": "Declaración de impuestos y servicios telemáticos del fisco. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-inps",
+       "nombre": "INPS",
+       "url": "https://www.inps.it/",
+       "desc": "Pensiones, prestaciones y cuenta contributiva. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-inail",
+       "nombre": "INAIL",
+       "url": "https://www.inail.it/portale/",
+       "desc": "Seguro contra accidentes de trabajo y enfermedades profesionales. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-cie",
+       "nombre": "Carta d'identità elettronica (CIE)",
+       "url": "https://www.cartaidentita.interno.gov.it/",
+       "desc": "Información y cita para la carta de identidad electrónica del Ministerio del Interior.",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-anpr",
+       "nombre": "ANPR (anagrafe nazionale)",
+       "url": "https://www.anagrafenazionale.interno.it/",
+       "desc": "Certificados del registro civil nacional. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-pagopa",
+       "nombre": "pagoPA",
+       "url": "https://www.pagopa.gov.it/",
+       "desc": "Pago de tasas, multas y servicios de la administración. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-portale-automobilista",
+       "nombre": "Il Portale dell'Automobilista",
+       "url": "https://www.ilportaledellautomobilista.it/",
+       "desc": "Trámites de tráfico y vehículos del Ministerio de Infraestructuras. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "it-fascicolo-sanitario",
+       "nombre": "Fascicolo Sanitario Elettronico",
+       "url": "https://www.fascicolosanitario.gov.it/",
+       "desc": "Historial clínico electrónico nacional. Acceso con SPID o CIE.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-SERVICIOS-CORREOS",
+     "nombre": "Correos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "it-poste",
+       "nombre": "Poste Italiane",
+       "url": "https://www.poste.it/",
+       "desc": "Correo, pagos y BancoPosta. Acceso con PosteID o SPID.",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-SERVICIOS-TRANSPORTE",
+     "nombre": "Transporte de larga distancia",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "it-trenitalia",
+       "nombre": "Trenitalia",
+       "url": "https://www.trenitalia.com/it.html",
+       "desc": "Billetes y cuenta de cliente de trenes de larga distancia.",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-CIUDAD-ROMA",
+     "nombre": "Roma Capitale",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "it-roma-capitale",
+       "nombre": "Roma Capitale (trámites)",
+       "url": "https://www.comune.roma.it/web/it/home.page",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Roma.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-CIUDAD-NAPOLI",
+     "nombre": "Napoli",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "it-comune-napoli",
+       "nombre": "Comune di Napoli (servizi)",
+       "url": "https://www.comune.napoli.it/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Nápoles.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-CIUDAD-TORINO",
+     "nombre": "Torino",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "it-comune-torino",
+       "nombre": "Comune di Torino (servizi)",
+       "url": "https://www.comune.torino.it/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Turín.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-CIUDAD-BOLOGNA",
+     "nombre": "Bologna",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "it-comune-bologna",
+       "nombre": "Comune di Bologna (servizi)",
+       "url": "https://www.comune.bologna.it/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Bolonia.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "IT-CIUDAD-FIRENZE",
+     "nombre": "Firenze",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "it-comune-firenze",
+       "nombre": "Comune di Firenze (servizi)",
+       "url": "https://www.comune.firenze.it/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Florencia.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "LU",
+   "nombre": "Luxemburgo",
+   "idioma": "fr",
+   "secciones": [
+    {
+     "id": "LU-ESTADO",
+     "nombre": "Gobierno central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "lu-myguichet",
+       "nombre": "MyGuichet.lu",
+       "url": "https://www.myguichet.lu/",
+       "desc": "Portal de trámites de la administración; acceso con LuxTrust o eID",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-guichet",
+       "nombre": "guichet.lu",
+       "url": "https://guichet.lu/",
+       "desc": "Información oficial de trámites del Estado",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-gouvernement",
+       "nombre": "Gobierno de Luxemburgo",
+       "url": "https://gouvernement.lu/",
+       "desc": "Portal del Gobierno",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-impots",
+       "nombre": "Administración de Contribuciones Directas",
+       "url": "https://impotsdirects.public.lu/",
+       "desc": "Impuestos directos: declaración de la renta",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-mobiliteit",
+       "nombre": "Mobiliteit.lu",
+       "url": "https://www.mobiliteit.lu/fr/",
+       "desc": "Información de transporte y movilidad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "LU-MUNICIPIO",
+     "nombre": "Grandes ciudades",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "lu-vdl",
+       "nombre": "Ville de Luxembourg",
+       "url": "https://www.vdl.lu/",
+       "desc": "Trámites municipales de la ciudad de Luxemburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "LU-SERVICIO",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "lu-cfl",
+       "nombre": "CFL (trenes)",
+       "url": "https://www.cfl.lu/",
+       "desc": "Trenes nacionales: billetes e información",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-post",
+       "nombre": "Post Luxembourg",
+       "url": "https://www.post.lu/",
+       "desc": "Correos y paquetería",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "lu-luxtram",
+       "nombre": "Luxtram",
+       "url": "https://www.luxtram.lu/",
+       "desc": "Tranvía de la ciudad de Luxemburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "NL",
+   "nombre": "Países Bajos",
+   "idioma": "nl",
+   "secciones": [
+    {
+     "id": "NL-ESTADO",
+     "nombre": "Gobierno central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "nl-belastingdienst",
+       "nombre": "Belastingdienst",
+       "url": "https://www.belastingdienst.nl/",
+       "desc": "Información fiscal de la Hacienda neerlandesa",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-mijn-belastingdienst",
+       "nombre": "Mijn Belastingdienst",
+       "url": "https://mijn.belastingdienst.nl/",
+       "desc": "Área personal de impuestos: declaración de la renta e IVA",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-mijn-overheid",
+       "nombre": "Mijn Overheid",
+       "url": "https://mijn.overheid.nl/",
+       "desc": "Buzón y trámites del ciudadano en un único sitio",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-rdw",
+       "nombre": "RDW",
+       "url": "https://www.rdw.nl/",
+       "desc": "Vehículos: matriculación, ITV y permisos de conducir",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-mijn-rdw",
+       "nombre": "Mijn RDW",
+       "url": "https://mijn.rdw.nl/",
+       "desc": "Área personal de vehículos y permisos (RDW)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-uwv",
+       "nombre": "UWV",
+       "url": "https://www.uwv.nl/",
+       "desc": "Prestaciones laborales y seguro de desempleo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-kadaster",
+       "nombre": "Kadaster",
+       "url": "https://www.kadaster.nl/",
+       "desc": "Registro de la propiedad inmobiliaria",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-duo",
+       "nombre": "DUO",
+       "url": "https://www.duo.nl/",
+       "desc": "Ayudas al estudio y registro educativo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "NL-MUNICIPIO",
+     "nombre": "Grandes ciudades",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "nl-rotterdam",
+       "nombre": "Gemeente Rotterdam",
+       "url": "https://www.rotterdam.nl/",
+       "desc": "Trámites municipales de Róterdam",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-utrecht",
+       "nombre": "Gemeente Utrecht",
+       "url": "https://www.utrecht.nl/",
+       "desc": "Trámites municipales de Utrecht",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-eindhoven",
+       "nombre": "Gemeente Eindhoven",
+       "url": "https://www.eindhoven.nl/",
+       "desc": "Trámites municipales de Eindhoven",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "NL-SERVICIO",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "nl-ns",
+       "nombre": "NS (trenes)",
+       "url": "https://www.ns.nl/",
+       "desc": "Trenes de media y larga distancia: billetes e información",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-postnl",
+       "nombre": "PostNL (Mijn PostNL)",
+       "url": "https://jouw.postnl.nl/",
+       "desc": "Correo y paquetería: seguimiento de envíos",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-vitens",
+       "nombre": "Vitens",
+       "url": "https://www.vitens.nl/",
+       "desc": "Distribuidora de agua potable (centro y norte del país)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-evides",
+       "nombre": "Evides",
+       "url": "https://www.evides.nl/",
+       "desc": "Distribuidora de agua potable (zona de Róterdam)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-liander",
+       "nombre": "Liander",
+       "url": "https://www.liander.nl/",
+       "desc": "Gestor de red de electricidad y gas",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-stedin",
+       "nombre": "Stedin",
+       "url": "https://www.stedin.net/",
+       "desc": "Gestor de red de electricidad y gas (Randstad)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "nl-enexis",
+       "nombre": "Enexis",
+       "url": "https://www.enexis.nl/",
+       "desc": "Gestor de red de electricidad y gas (este y sur)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "NO",
+   "nombre": "Noruega",
+   "idioma": "no",
+   "secciones": [
+    {
+     "id": "NO-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "no-brreg",
+       "nombre": "Brønnøysundregistrene",
+       "url": "https://www.brreg.no/",
+       "desc": "Registro de empresas",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      }
+     ]
+    },
+    {
+     "id": "NO-CIUDAD-OSLO",
+     "nombre": "Oslo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "no-oslo",
+       "nombre": "Oslo kommune",
+       "url": "https://www.oslo.kommune.no/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      }
+     ]
+    },
+    {
+     "id": "NO-CIUDAD-BERGEN",
+     "nombre": "Bergen",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "no-bergen",
+       "nombre": "Bergen kommune",
+       "url": "https://www.bergen.kommune.no/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      }
+     ]
+    },
+    {
+     "id": "NO-CIUDAD-TRONDHEIM",
+     "nombre": "Trondheim",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "no-trondheim",
+       "nombre": "Trondheim kommune",
+       "url": "https://www.trondheim.kommune.no/",
+       "desc": "Portal municipal de trámites y servicios",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      }
+     ]
+    },
+    {
+     "id": "NO-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "no-vy",
+       "nombre": "Vy",
+       "url": "https://www.vy.no/",
+       "desc": "Transporte de tren, autobús y ferry: billetes y app",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      },
+      {
+       "id": "no-posten",
+       "nombre": "Posten Norge",
+       "url": "https://www.posten.no/",
+       "desc": "Correos y paquetería",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      },
+      {
+       "id": "no-ruter",
+       "nombre": "Ruter",
+       "url": "https://ruter.no/",
+       "desc": "Transporte público de Oslo: billetes y app",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      },
+      {
+       "id": "no-entur",
+       "nombre": "Entur",
+       "url": "https://entur.no/",
+       "desc": "Planificador y billetes de transporte público en Noruega",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "no"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "PL",
+   "nombre": "Polonia",
+   "idioma": "pl",
+   "secciones": [
+    {
+     "id": "PL-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "pl-gov",
+       "nombre": "gov.pl (portal del Gobierno)",
+       "url": "https://www.gov.pl/",
+       "desc": "Portal de la administración central. Identidad con mObywatel (app) o Profil Zaufany.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pl-e-urzad-skarbowy",
+       "nombre": "e-Urząd Skarbowy (Podatki)",
+       "url": "https://podatki.gov.pl/",
+       "desc": "Declaración de impuestos y servicios de la Agencia Tributaria. Acceso con Profil Zaufany o mObywatel.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pl-cepik",
+       "nombre": "CEPiK (vehículos y conductores)",
+       "url": "https://www.gov.pl/web/cepik",
+       "desc": "Registro de vehículos y conductores, multas y permisos de conducir.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PL-SERVICIOS-CORREOS",
+     "nombre": "Correos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "pl-poczta-polska",
+       "nombre": "Poczta Polska",
+       "url": "https://www.poczta-polska.pl/",
+       "desc": "Envíos, seguimiento y servicios postales.",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PL-CIUDAD-WARSZAWA",
+     "nombre": "Varsovia",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "pl-um-warszawa",
+       "nombre": "Urząd m. st. Warszawy",
+       "url": "https://um.warszawa.pl/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Varsovia.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PL-CIUDAD-KRAKOW",
+     "nombre": "Cracovia",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "pl-krakow",
+       "nombre": "Kraków (Urząd Miasta)",
+       "url": "https://www.krakow.pl/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Cracovia.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PL-CIUDAD-WROCLAW",
+     "nombre": "Breslavia",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "pl-wroclaw",
+       "nombre": "Wrocław (Urząd Miasta)",
+       "url": "https://www.wroclaw.pl/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Breslavia.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PL-CIUDAD-GDANSK",
+     "nombre": "Gdansk",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "pl-gdansk",
+       "nombre": "Gdańsk (Urząd Miasta)",
+       "url": "https://www.gdansk.pl/",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Gdansk.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "PT",
+   "nombre": "Portugal",
+   "idioma": "pt",
+   "secciones": [
+    {
+     "id": "PT-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "pt-financas",
+       "nombre": "Portal das Finanças",
+       "url": "https://www.portaldasfinancas.gov.pt/",
+       "desc": "Declaración de IRS, IVA y servicios de la Autoridade Tributária. Acceso con CMD o Cartão de Cidadão.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pt-seg-social-direta",
+       "nombre": "Segurança Social Direta",
+       "url": "https://www.seg-social.pt/",
+       "desc": "Pensiones, prestaciones y situación contributiva. Acceso con CMD o Cartão de Cidadão.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pt-sns24",
+       "nombre": "SNS 24",
+       "url": "https://www.sns24.gov.pt/",
+       "desc": "Línea y portal de salud: consultas, receta y ayuda médica. Acceso con CMD.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pt-portal-utente",
+       "nombre": "Portal do Utente (SNS)",
+       "url": "https://www.sns.gov.pt/",
+       "desc": "Portal del Servicio Nacional de Salud para el usuario. Acceso con CMD.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PT-SERVICIOS-CORREOS",
+     "nombre": "Correos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "pt-ctt",
+       "nombre": "CTT Correios de Portugal",
+       "url": "https://www.ctt.pt/particulares/index",
+       "desc": "Envíos, seguimiento y servicios postales.",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PT-SERVICIOS-TRANSPORTE",
+     "nombre": "Transporte público",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "pt-cp",
+       "nombre": "CP - Comboios de Portugal",
+       "url": "https://www.cp.pt/",
+       "desc": "Billetes y horarios de trenes de larga distancia y regionales.",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pt-carris",
+       "nombre": "Carris (Lisboa)",
+       "url": "https://www.carris.pt/",
+       "desc": "Transporte público de autobús, tranvía y elevador en Lisboa.",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "pt-stcp",
+       "nombre": "STCP (Oporto)",
+       "url": "https://www.stcp.pt/",
+       "desc": "Transporte público de autobús y tranvía en Oporto.",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PT-SERVICIOS-AGUA",
+     "nombre": "Agua",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "pt-epal",
+       "nombre": "EPAL (agua de Lisboa)",
+       "url": "https://www.epal.pt/",
+       "desc": "Suministro de agua en Lisboa y área metropolitana. Área de cliente.",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "PT-CIUDAD-OPORTO",
+     "nombre": "Oporto",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "pt-cm-porto",
+       "nombre": "Câmara Municipal do Porto",
+       "url": "https://www.porto.pt/pt",
+       "desc": "Portal de servicios y trámites del Ayuntamiento de Oporto.",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "RO",
+   "nombre": "Rumanía",
+   "idioma": "ro",
+   "secciones": [
+    {
+     "id": "RO-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "ro-gov",
+       "nombre": "guvern.ro / gov.ro",
+       "url": "https://www.gov.ro",
+       "desc": "Portal del Gobierno y acceso a trámites",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ro-anaf",
+       "nombre": "ANAF (Agencia tributaria, SPV)",
+       "url": "https://www.anaf.ro",
+       "desc": "Impuestos y declaraciones (Spațiul Privat Virtual)",
+       "auth": "certificado",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ro-cnas",
+       "nombre": "CNAS (Seguro de salud)",
+       "url": "https://www.cnas.ro",
+       "desc": "Seguro de salud público",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ro-anofm",
+       "nombre": "ANOFM (Servicio de empleo)",
+       "url": "https://www.anofm.ro",
+       "desc": "Empleo y prestaciones",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "RO-BUC",
+     "nombre": "Bucarest",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "ro-pmb",
+       "nombre": "Primăria Municipiului București",
+       "url": "https://www.pmb.ro",
+       "desc": "Portal oficial de la capital",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "RO-SERV",
+     "nombre": "Servicios públicos (Bucarest)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "ro-stb",
+       "nombre": "STB (transporte público)",
+       "url": "https://www.stb.ro",
+       "desc": "Transporte público de Bucarest",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "ro-posta",
+       "nombre": "Poșta Română",
+       "url": "https://www.posta-romana.ro",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "SE",
+   "nombre": "Suecia",
+   "idioma": "sv",
+   "secciones": [
+    {
+     "id": "SE-GOV",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "se-lantmateriet",
+       "nombre": "Lantmäteriet",
+       "url": "https://www.lantmateriet.se/",
+       "desc": "Catastro y registro de la propiedad inmueble",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      },
+      {
+       "id": "se-trafikverket",
+       "nombre": "Trafikverket",
+       "url": "https://www.trafikverket.se/",
+       "desc": "Carreteras y ferrocarril: estado del tráfico",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-REGION-ESTOCOLMO",
+     "nombre": "Región de Estocolmo",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "se-region-estocolmo",
+       "nombre": "Región de Estocolmo",
+       "url": "https://www.regionstockholm.se/",
+       "desc": "Portal regional: sanidad y servicios regionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-REGION-VGR",
+     "nombre": "Región Västra Götaland",
+     "nivel": "region",
+     "entradas": [
+      {
+       "id": "se-region-vgr",
+       "nombre": "Región Västra Götaland",
+       "url": "https://www.vgregion.se/",
+       "desc": "Portal regional: sanidad y servicios regionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-CIUDAD-ESTOCOLMO",
+     "nombre": "Ciudad de Estocolmo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "se-stockholm",
+       "nombre": "Estocolmo stad",
+       "url": "https://start.stockholm/",
+       "desc": "Portal municipal: trámites y servicios de la ciudad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-CIUDAD-GOTEMBURGO",
+     "nombre": "Ciudad de Gotemburgo",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "se-goteborg",
+       "nombre": "Göteborgs Stad",
+       "url": "https://goteborg.se/",
+       "desc": "Portal municipal: trámites y servicios de la ciudad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-CIUDAD-MALMO",
+     "nombre": "Ciudad de Malmö",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "se-malmo",
+       "nombre": "Malmö stad",
+       "url": "https://malmo.se/",
+       "desc": "Portal municipal: trámites y servicios de la ciudad",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    },
+    {
+     "id": "SE-SERV",
+     "nombre": "Servicios públicos",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "se-sj",
+       "nombre": "SJ",
+       "url": "https://www.sj.se/",
+       "desc": "Tren de larga distancia: billetes y cuenta de cliente",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      },
+      {
+       "id": "se-sl",
+       "nombre": "SL (Storstockholms Lokaltrafik)",
+       "url": "https://sl.se/",
+       "desc": "Transporte público de Estocolmo: billetes y app",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      },
+      {
+       "id": "se-renova",
+       "nombre": "Renova",
+       "url": "https://www.renova.se/",
+       "desc": "Recogida de residuos en Gotemburgo",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      },
+      {
+       "id": "se-vasttrafik",
+       "nombre": "Västtrafik",
+       "url": "https://www.vasttrafik.se/",
+       "desc": "Transporte público de Gotemburgo y Västra Götaland",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      },
+      {
+       "id": "se-skanetrafiken",
+       "nombre": "Skånetrafiken",
+       "url": "https://www.skanetrafiken.se/",
+       "desc": "Transporte público de Skåne (Malmö)",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false,
+       "idioma": "sv"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "SI",
+   "nombre": "Eslovenia",
+   "idioma": "sl",
+   "secciones": [
+    {
+     "id": "SI-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "si-gov",
+       "nombre": "Portal gov.si",
+       "url": "https://www.gov.si",
+       "desc": "Portal de la administración central",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "si-euprava",
+       "nombre": "eUprava",
+       "url": "https://e-uprava.gov.si",
+       "desc": "Trámites electrónicos de la administración; identidad digital (SI-PASS)",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "si-zzzs",
+       "nombre": "ZZZS (Seguro de salud)",
+       "url": "https://www.zzzs.si",
+       "desc": "Seguro de salud público",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "si-ess",
+       "nombre": "ZRSZ / ESS (Servicio de empleo)",
+       "url": "https://www.ess.gov.si",
+       "desc": "Empleo y prestaciones",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "SI-LJU",
+     "nombre": "Liubliana",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "si-ljubljana",
+       "nombre": "Mestna občina Ljubljana",
+       "url": "https://www.ljubljana.si",
+       "desc": "Portal oficial de la capital",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "SI-SERV",
+     "nombre": "Servicios públicos (Liubliana)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "si-lpp",
+       "nombre": "LPP (transporte público)",
+       "url": "https://www.lpp.si",
+       "desc": "Transporte público de Liubliana",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "si-posta",
+       "nombre": "Pošta Slovenije",
+       "url": "https://www.posta.si",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "iso": "SK",
+   "nombre": "Eslovaquia",
+   "idioma": "sk",
+   "secciones": [
+    {
+     "id": "SK-ESTADO",
+     "nombre": "Administración central",
+     "nivel": "estado",
+     "entradas": [
+      {
+       "id": "sk-slovensko",
+       "nombre": "Slovensko.sk (ÚPVS)",
+       "url": "https://www.slovensko.sk",
+       "desc": "Portal único de la administración pública; identidad digital",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-financna",
+       "nombre": "Finančná správa",
+       "url": "https://www.financnasprava.sk",
+       "desc": "Agencia tributaria: impuestos",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-ezdravotnictvo",
+       "nombre": "eZdravotníctvo",
+       "url": "https://www.ezdravotnictvo.sk",
+       "desc": "Portal electrónico de sanidad",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-vszp",
+       "nombre": "Všeobecná zdravotná poisťovňa",
+       "url": "https://www.vszp.sk",
+       "desc": "Seguro de salud público (mayor aseguradora)",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-upsvr",
+       "nombre": "Ústredie práce, sociálnych vecí a rodiny",
+       "url": "https://www.upsvr.gov.sk",
+       "desc": "Empleo y prestaciones sociales",
+       "auth": "clave",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "SK-BRA",
+     "nombre": "Bratislava",
+     "nivel": "municipio",
+     "entradas": [
+      {
+       "id": "sk-bratislava",
+       "nombre": "Mesto Bratislava",
+       "url": "https://www.bratislava.sk",
+       "desc": "Portal oficial de la ciudad de Bratislava",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    },
+    {
+     "id": "SK-SERV",
+     "nombre": "Servicios públicos (Bratislava)",
+     "nivel": "servicio",
+     "entradas": [
+      {
+       "id": "sk-bvs",
+       "nombre": "Bratislavská vodárenská spoločnosť",
+       "url": "https://www.bvsas.sk",
+       "desc": "Agua y alcantarillado de Bratislava",
+       "auth": "usuario",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-dpb",
+       "nombre": "Dopravný podnik Bratislava",
+       "url": "https://www.dpb.sk",
+       "desc": "Transporte público de Bratislava",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      },
+      {
+       "id": "sk-posta",
+       "nombre": "Slovenská pošta",
+       "url": "https://www.posta.sk",
+       "desc": "Correos nacionales",
+       "auth": "ninguna",
+       "estado": "pendiente",
+       "favorito": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
